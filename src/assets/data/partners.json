@@ -10,9 +10,15 @@
         "img":"wtm.png"
     },
     {
-        "name":"GDG[x]",
+        "name":"U.S. Embassy in Ethiopia",
         "link":"https://github.com/gdg-x",
-        "img":"gdg-x.svg"
+        "img":"us_embassy_ethiopia.jpg"
+    },
+    {
+        "name":"USAID",
+        "link":"https://github.com/gdg-x",
+        "img":"usaid.jpg"
     }
+    
 
 ]

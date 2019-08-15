@@ -11,6 +11,10 @@ export default new Vuex.Store({
       { text: 'Events', to: '/events', icon: 'rounded_corner'},
       { text: 'Team', to: '/team', icon:'group'},
       { text: 'About', to: '/about', icon: 'toc'},
+      { text: 'WTM Addis', to: '', icon: 'toc'},
+      { text: 'News', to: '', icon: 'toc'},
+      { text: 'Addis Forum', to: '', icon: 'toc'},
+      { text: 'Jobs/Interships', to: '', icon: 'toc'},
       { text: 'Contact', to: '/contact', icon:'person'}
     ]
   },
