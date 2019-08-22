@@ -1,6 +1,6 @@
 # GDG Addis Platform
 
-<img width="100%" src="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/promotion%20images/Aura%20v1.0.3.png">
+<img width="100%" src="https://raw.githubusercontent.com/GDG-Addis/GDGAddisPlatform/master/src/assets/img/gdg_platfrom_screenshot.png">
 
 A Standard Platfrom for GDG Addis Community. <br>
 [Demo](https://gdg-addis-platform.firebaseapp.com/) <br>
