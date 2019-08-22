@@ -1,18 +1,15 @@
-# Aura - GDG Addis
-[![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/1444-shield.svg)](https://madewithvuejs.com/p/aura/shield-link)
-<!-- [![Build Status](https://travis-ci.org/Vrijraj/aura.svg?branch=master)](https://travis-ci.org/Vrijraj/aura) -->
+# GDG Addis Platform
 
 <img width="100%" src="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/promotion%20images/Aura%20v1.0.3.png">
 
-Standard Web App for GDG's Communties. <br>
-[Demo](https://aura-client-master.firebaseapp.com/) <br>
-Version: 1.0.5
+A Standard Platfrom for GDG Addis Community. <br>
+[Demo](https://gdg-addis-platform.firebaseapp.com/) <br>
+Version: 1.0.1
 
 ## Overview
 
-Aura is the website template that helps you to set GDG's Communities website with events, team and  management in a few minutes.
-
-The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) team experience of running meetups.
+GDG Addis Platform is a progressive web app platform that helps GDG Addis's Community easily follw up with events, team and  management, forums, job/internships and more.  
+The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) team and [Here](https://github.com/Vrijraj/aura/) is the origional repository.
 
 ## Features
 | Feature | Description |
@@ -25,7 +22,7 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 
 
 ## Getting Started
-1. [Fork repository](https://github.com/Vrijraj/aura/fork) and clone it locally
+1. [Fork repository](https://github.com/GDG-Addis/GDGAddisPlatform/fork) and clone it locally
 1. Install project dependencies: `npm install` 
 1. Find the [Meetup API Key](https://secure.meetup.com/meetup_api/key/) and paste it [here](/src/config/key.js), also replace the chapter URL from `Meetup.com/[gdg-chapter-url]`
 1. Compiles and hot-reloads for development: `npm run serve`
@@ -92,34 +89,19 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [Service Worker & PWA](https://www.npmjs.com/package/vue-pwa)
 * [Workbox](https://developers.google.com/web/tools/workbox)
 
-### View Website Built with Project 
+### Contributing
+Awesome! Contributions of all kinds are greatly appreciated. To help smoothen the process we have a few non-exhaustive guidelines to follow which should get you going in no time.
 
-| Community Name | Web App Link | 
-| --- | --- | 
-| GDG Jalandhar | [View Now](https://gdgjalandhar.com) |
-| GDG Kuala Lumpur | [View Now](https://www.gdgkl.dev/) |
-| GDG Fortaleza | [View Now](http://gdgfortaleza.com.br/) |
-| GDG Kozhikode | [View Now](https://gdgkozhikode.org/) |
-| GDG Delta | [View Now](https://gdgdelta.com/) |
-| GDG Tokyo | [View Now](https://tokyo.gdgjapan.org/) |
-| GDG Yangon | [View Now](https://gdgyangon.org/) |
-| GDG Gran Canaria | [View Now](https://gdggrancanaria.org/) |
-| GDG Santander | [View Now](https://gdgsantander.com/) |
-| GDG Ciudad del Este | [View Now](http://gdgcde.org/) |
-| GDG Ilorin | [View Now](https://gdg-ilorin-d9f0d.firebaseapp.com/) |
-| GDG Chetumal | [View Now](https://gdg-chetumal.firebaseapp.com/) |
-| GDG Porto | [View Now](https://gdgporto-aura.firebaseapp.com/) |
-| GDG Istanbul | [View Now](https://gdgist.firebaseapp.com/) |
-| GDG Port-of-Spain | [View Now](https://gdgpos.com/) |
-| GDG Jeddah | [View Now](https://www.gdgjed.com/home) |
-| GDG Sevilla | [View Now](https://www.gdgsevilla.com/) |
-| GDG Madeira | [View Now](https://gdgmadeira.xyz/) |
-| GDG Chandigarh | [View Now](https://gdg-chd.web.app/) |
-| GDG Rochester | [View Now](https://gdgrochester.com/) |
-| GDG Sri Lanka | [View Now](https://gdgsrilanka.org) |
-| GDG Lafia | [View Now](https://lafia.gdg.ng/) |
+## Using GitHub Issues
+* Feel free to use GitHub issues for questions, bug reports, and feature requests
+* Use the search feature to check for an existing issue
+* Include as much information as possible and provide any relevant resources (Eg. screenshots)
+* For bug reports ensure you have a reproducible test case
+    - A pull request with a breaking test would be super preferable here but isn't required
+
+### Special Thanks
+<b>original Maintainer:</b> [Vrijraj Singh](https://github.com/vrijraj)
 
 
 
-Project is published under the [MIT license](/LICENSE.md).  
 Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
