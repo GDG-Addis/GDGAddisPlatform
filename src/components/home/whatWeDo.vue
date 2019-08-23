@@ -3,7 +3,7 @@
         <v-layout wrap align-center justify-center row fill-height >
            <v-flex xs12 md3 lg3 class="pa-2">
                <p class="google-font" style="font-size:180%">What we do?</p>
-               <p class="google-font" style="font-size:110%">Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
+               <p class="google-font" style="font-size:110%">We provide the community developers with a space to get new ideas, learn from industry experts, engage with peers, use Google Technologies and other developer tools to foster growth and build technology ecosystem.</p>
 
                <p class="google-font" style="font-size:110%">About different Google technologies</p>
 

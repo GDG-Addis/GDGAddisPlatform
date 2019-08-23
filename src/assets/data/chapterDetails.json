@@ -1,32 +1,38 @@
 {
     "ChapterName":"GDG Addis",
-    "ChapterShortDescription":"Google Developers Group Jalandhar is an initiative to concentrate the efforts of many developers in and around Punjab to learn, share and get productive using the various Google products.",
-    "ChapterLongDec":"Google Developer Group Jalandhar is inspired by GTUG/GDG Family . We started our journey in Feb 2011. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around Jalandhar. The technology awareness is main goal for first few years of the group.",
-    "ChapterMeetupLink":"https://www.meetup.com/GDG-Jalandhar",
+    "ChapterShortDescription":"Google Developers Group (GDG) Addis is run by passionate individuals in the developer community.",
+    "ChapterLongDec":"Google Developers Group (GDG) Addis is run by passionate individuals in the developer community. This is a space to get new ideas, learn from industry experts, engage with peers, use Google Technologies and other developer tools to foster growth and build technology ecosystem. -It is open and free for all interested. -It is focused on developers and educational technical content. -It aims to raise the technical proficiency of the community.",
+    "ChapterMeetupLink":"https://www.meetup.com/GDG-Addis",
     "ChapterEmail":"gdgaddis.et@gmail.com",
-    "website":"https://gdgjalandhar.com",
+    "website":"https://gdg-addis-platform.firebaseapp.com/devfest",
     "GDGProgramWebsite":"https://developers.google.com/programs/community/",
     "ChapterHashTags":["GDGAddis","WTMAddis","GDG","WTM"],
     "socialLinks":[
         {
             "name" : "Facebook",
-            "link" : "https://www.facebook.com/GDGJalandhar/",
-            "icon" : "fab fa-facebook"
+            "link" : "https://www.facebook.com/gdgaddis/",
+            "icon" : "mdi-facebook"
         },
-        {
-            "name" : "Google Plus",
-            "link" : "https://plus.google.com/u/0/+GdgjalandharIn/posts",
-            "icon" : "fab fa-google-plus"
-        },
+        
         {
             "name" : "Twitter",
-            "link" : "https://twitter.com/gdgjalandhar",
-            "icon" : "fab fa-twitter"
+            "link" : "https://mobile.twitter.com/GDGAddis",
+            "icon" : "mdi-twitter"
         },
         {
             "name" : "Meetup",
-            "link" : "https://www.meetup.com/GDG-Jalandhar/",
+            "link" : "https://www.meetup.com/GDG-Addis",
             "icon" : "fab fa-meetup"
+        },
+        {
+            "name" : "Telegram",
+            "link" : "https://t.me/GDG_Addis",
+            "icon" : "mdi-telegram"
+        },
+        {
+            "name" : "Instagram",
+            "link" : "https://instagram.com/gdgaddis/",
+            "icon" : "mdi-instagram"
         }
     ],
     "wtmWebsite":"https://www.womentechmakers.com/",

@@ -1,8 +1,8 @@
 {
     "AboutSession":[
         {
-            "LinkName":"GDG Jalandhar",
-            "Link":"/"
+            "LinkName":"GDG Addis",
+            "Link":"https://gdg-addis-platform.firebaseapp.com"
         },
         {
             "LinkName":"Google Developers Groups",
@@ -14,22 +14,19 @@
         },
         {
             "LinkName":"Become a Member",
-            "Link":"https://www.meetup.com/GDG-Jalandhar/"
+            "Link":"https://meetup.com/GDG-Addis/"
         }
     ],
     "ChapterResourcesSession":[
         {
             "LinkName" : "Become a Sponsor",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "Link" : "mailto:gdgaddis.et@gmail.com"
         },
         {
             "LinkName" : "Call for Speaker",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
-        },
-        {
-            "LinkName" : "Media Kit",
-            "Link" : "https://drive.google.com/drive/folders/16rHDaHbuS_YApMWgJHUxygpd-A5gCkLK"
+            "Link" : "mailto:gdgaddis.et@gmail.com"
         }
+        
     ],
     "DevConsole":[
         {
