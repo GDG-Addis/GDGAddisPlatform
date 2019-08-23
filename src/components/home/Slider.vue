@@ -1,7 +1,8 @@
 <template>
-      <v-carousel hide-controls  show-arrows-on-hover>
+      <v-carousel  show-arrows-on-hover hide-delimiters interval="3000">
+
         <v-carousel-item
-          :src="require('@/assets/img/homeSliders/slider2.png')"
+          :src="require('@/assets/img/devfest/sliders/slider1.png')"
           transition="transition"
           reverse-transition="reverseTransition"
           
@@ -27,6 +28,7 @@
 </template>
 
 <script>
+
 export default {
     data() {
         return {

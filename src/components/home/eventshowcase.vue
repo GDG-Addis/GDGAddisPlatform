@@ -26,7 +26,7 @@
         </v-layout>
 
         <v-layout wrap align-start justify-center row fill-height class="hidden-sm-and-down mb-4">
-
+            
              <v-flex xs12 v-if="showLoader">
                 <v-layout row wrap>
                     <v-flex xs12 sm6 md3 lg3 v-for="n in 4" :key="`4${n}`">
