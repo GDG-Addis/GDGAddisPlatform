@@ -9,6 +9,10 @@
                <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Meetup Page</v-btn>
                &nbsp;
                <v-btn :href="chapterDetails.socialLinks[0].link" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Facebook Page</v-btn>
+               &nbsp;
+               <v-btn :href="chapterDetails.socialLinks[3].link" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Telegram Channel</v-btn>
+               &nbsp;
+               <v-btn :href="chapterDetails.socialLinks[1].link" target="_blank" outline color="white" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;">Twitter Page</v-btn>
                 <br><br>
                <router-link to="/about" class="google-font" style="text-decoration:none;color:white">See More about {{chapterDetails.ChapterName}}</router-link>
             </v-flex> 

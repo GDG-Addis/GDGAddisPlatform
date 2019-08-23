@@ -59,14 +59,24 @@
                     <span>See {{eventDetails.FeatureEventName}} Meetup</span>
                 </v-tooltip>
 
-                <v-tooltip top slot="activator" v-if="eventDetails.FBEventPageURL.length>0">
+                <v-tooltip top slot="activator" v-if="eventDetails.TELEventPageURL.length>0">
                     <v-btn flat icon color="#616161"
-                    :href="eventDetails.FBEventPageURL"
+                    :href="eventDetails.TELEventPageURL"
                     target="_blank"
                     class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
-                        <v-icon >fab fa-facebook-f</v-icon>
+                        <v-icon >fab fa-telegram</v-icon>
                     </v-btn>
-                    <span>See {{eventDetails.FeatureEventName}} Facebook Page</span>
+                    <span>See {{eventDetails.FeatureEventName}} Telegram Channel</span>
+                </v-tooltip>
+
+                <v-tooltip top slot="activator" v-if="eventDetails.TWITEventPageURL.length>0">
+                    <v-btn flat icon color="#616161"
+                    :href="eventDetails.TWITEventPageURL"
+                    target="_blank"
+                    class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
+                        <v-icon >fab fa-twitter</v-icon>
+                    </v-btn>
+                    <span>See {{eventDetails.FeatureEventName}} Twitter Page</span>
                 </v-tooltip>
             
             </v-flex> 

@@ -5,15 +5,15 @@
         "twitter":"https://twitter.com/",
         "linkedin":"https://www.linkedin.com/",
         "github":"https://github.com/",
-        "profileImage":"",
+        "profileImage":"femaleAvatar.jpg",
         "website":""
     },
     {
         "name":"Name",
         "designation":"Management",
-        "twitter":"",
+        "twitter":"https://twitter.com/",
         "linkedin":"https://www.linkedin.com/",
-        "github":"",
+        "github":"https://github.com/",
         "profileImage":"",
         "website":""
     },
@@ -23,7 +23,7 @@
         "twitter":"https://twitter.com/",
         "linkedin":"https://www.linkedin.com/",
         "github":"https://www.github.com/",
-        "profileImage":"",
+        "profileImage":"femaleAvatar.jpg",
         "website":""
     },
     {
@@ -39,9 +39,9 @@
         "name":"Name",
         "designation":"Development",
         "twitter":"https://twitter.com/",
-        "linkedin":"",
+        "linkedin":"https://twitter.com/",
         "github":"https://github.com/",
-        "profileImage":"",
+        "profileImage":"femaleAvatar.jpg",
         "website":""
     }
 ]

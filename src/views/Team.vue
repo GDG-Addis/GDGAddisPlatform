@@ -29,9 +29,6 @@
       </v-layout>
     </v-container>
 
-   
-
-
   </v-content>
   
 </template>
