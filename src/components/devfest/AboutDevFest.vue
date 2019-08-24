@@ -19,17 +19,19 @@
                 </v-img>
             </v-flex>
             <v-flex xs12 sm7 md8 lg8 class="pa-2 my-0">
-                <p class="google-font" style="font-size:120%;">DevFest is a community run event around the glob...</p>
+                <p class="google-font" style="font-size:120%;">DevFest (Developers Festival) is an annual community-run event</p>
 
-                <p class="google-font grey--text mt-3" style="font-size:120%">It includes Spaker Session, codelab Session</p>
+                <p class="google-font grey--text mt-3" style="font-size:120%">It offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more. This is a gathering of developers and technology enthusiasts to cover multiple product areas</p>
 
-                <v-btn target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Become a Member</v-btn> 
+                <v-btn href="https://www.meetup.com/GDG-Addis/events/262076561" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Book your ticket</v-btn> 
                 &nbsp;
 
-                <v-btn href="https://developers.google.com/groups" target="_blank" outline color="cyan" style="text-transform: capitalize;border-radius:5px"  class="ml-0" dark>Learn More</v-btn>
+                <v-btn href="https://www.meetup.com/GDG-Addis/events" target="_blank" outline color="cyan" style="text-transform: capitalize;border-radius:5px"  class="ml-0" dark>Learn More</v-btn>
             </v-flex> 
            
         </v-layout>
 
     </v-container>
 </template>
+
+

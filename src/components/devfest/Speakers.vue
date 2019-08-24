@@ -2,7 +2,7 @@
     <v-container class="pa-0 my-0" grid-list-lg>
             <h3>Key Note Speakers</h3>
         <v-layout wrap align-start justify-start row fill-height class="my-0" >
-            <v-flex v-for="i in 15" :key="i" xs6 sm4 md3 lg3 xl3 >
+            <v-flex v-for="i in 16" :key="i" xs6 sm4 md3 lg3 xl3 >
                 <v-card>
                     <v-card-media
                         :src="require('@/assets/img/devfest/speakers/melake.jpg')"
@@ -16,13 +16,19 @@
                         </div>
                     </v-card-title>
                     <v-card-actions>
-                        <v-btn flat icon>
+
+                        <v-btn flat icon href="https://www.twitter.com" target="_blank">
                             <v-icon>mdi-twitter</v-icon>
                         </v-btn>
 
-                        <v-btn flat icon>
+                        <v-btn flat icon href="https://www.facebook.com" target="_blank">
                             <v-icon>mdi-facebook</v-icon>
                         </v-btn>
+
+                        <v-btn flat icon href="https://www.linkedin.com" target="_blank">
+                            <v-icon>mdi-linkedin</v-icon>
+                        </v-btn>
+
                     </v-card-actions>
                 </v-card>
             </v-flex> 

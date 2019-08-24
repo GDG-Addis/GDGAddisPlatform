@@ -20,7 +20,7 @@
             </span>
           </p>
             
-            <p class="google-font mb-0" style="font-size:120%">Questions? Please contact <a href="">{{ChapterDetails.ChapterEmail}}.</a> </p>
+            <p class="google-font mb-0" style="font-size:120%">Questions? Please contact <a href="mailto:gdgaddis.et@gmail.com">{{ChapterDetails.ChapterEmail}}.</a> </p>
         </v-flex>
         <v-flex xs12 md2 lg2 class="pa-2">
           <v-img

@@ -20,7 +20,8 @@
            }}'
         />
       
-        <v-btn color="primary" large outline flat>Register</v-btn>
+        <v-btn href="https://www.meetup.com/GDG-Addis/events/262076561" target="_blank" color="primary" large outline flat>Register</v-btn>
+        
     </v-layout>
       
   </v-container>

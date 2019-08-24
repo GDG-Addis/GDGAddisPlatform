@@ -63,7 +63,7 @@
       <v-layout align-center column justify-center>
         <h1 class="display-2 font-weight-thin mb-3">DevFest Addis 2019</h1>
         <h4 class="subheading">The most anticipated developers festival!</h4>
-        <v-btn color="primary" outline>Register Now!</v-btn>
+        <v-btn  href="https://www.meetup.com/GDG-Addis/events/262076561" target="_blank" color="primary" outline>Reserve Now!</v-btn>
       </v-layout>
     </v-parallax>
 
