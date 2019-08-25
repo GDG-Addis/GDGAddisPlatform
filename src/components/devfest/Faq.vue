@@ -1,8 +1,8 @@
 <template>
   <v-container class="pa-0 my-0">
-      <h2>Frequently Asked Questions</h2>
-    <v-layout wrap align-start justify-space-between row fill-height >
-      <v-flex xs12 sm6 md6 lg6 >
+    <h2>Frequently Asked Questions</h2>
+    <v-layout wrap align-start justify-space-between row fill-height>
+      <v-flex xs12 sm6 md6 lg6>
         <v-expansion-panel>
           <v-expansion-panel-content v-for="(item,i) in 5" :key="i">
             <template v-slot:header>
@@ -14,7 +14,7 @@
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-flex>
-      <v-flex xs12 sm6 md6 lg6 >
+      <v-flex xs12 sm6 md6 lg6>
         <v-expansion-panel>
           <v-expansion-panel-content v-for="(item,i) in 5" :key="i">
             <template v-slot:header>

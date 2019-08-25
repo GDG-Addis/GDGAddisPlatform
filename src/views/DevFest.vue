@@ -4,6 +4,7 @@
       <v-toolbar-title class="ml-0 pl-1 mr-1">
         <v-layout column>
           <span class="google-font">DevFest Addis 2019</span>
+          
           <span class="body-1 grey--text">
             <v-icon small>mdi-calendar</v-icon>
             Oct 26th, 2019
@@ -109,13 +110,16 @@ export default {
   data() {
     return {
       links: [
-        { text: "Top", to: "/", icon: "home" },
+        { text: "GDGAddis", to: "/", icon: "toc" }
+        ,
         { text: "About DevFest", to: "/devfest", icon: "" },
         { text: "Agenda", to: "/events", icon: "rounded_corner" },
         { text: "Speakers", to: "/team", icon: "group" },
         { text: "Venue", to: "/about", icon: "toc" },
-        { text: "Sponsors", to: "", icon: "toc" },
-        { text: "FAQ", to: "", icon: "toc" }
+        { text: "Sponsors", to: "/", icon: "toc" },
+        { text: "FAQ", to: "/", icon: "toc" },
+        { text: "Top", to: "/", icon: "home" }
+        
       ]
     };
   }

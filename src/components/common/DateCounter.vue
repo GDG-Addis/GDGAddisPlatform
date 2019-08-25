@@ -20,9 +20,8 @@
         <span class="number">{{ seconds }}</span>
         <div class="format">{{ wordString.seconds }}</div>
       </div>
-
     </div>
-      <!-- <div class="message">{{ message }}</div> -->
+    <!-- <div class="message">{{ message }}</div> -->
   </v-layout>
   <!-- <div class="status-tag">{{ statusText }}</div> -->
 </template>

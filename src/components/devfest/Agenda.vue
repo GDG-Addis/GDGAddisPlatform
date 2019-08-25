@@ -31,18 +31,17 @@
           </v-toolbar>
           <v-tabs-items v-model="tabsValue">
             <v-tab-item>
-              <v-card class="mx-auto" >
+              <v-card class="mx-auto">
                 <v-card dark flat>
-                  
-                    <v-container fill-height>
-                      <v-layout align-center>
-                        <strong class="display-4 font-weight-regular mr-4">26</strong>
-                        <v-layout column justify-end>
-                          <div class="headline font-weight-light">Saturday</div>
-                          <div class="text-uppercase font-weight-light">October 2019</div>
-                        </v-layout>
+                  <v-container fill-height>
+                    <v-layout align-center>
+                      <strong class="display-4 font-weight-regular mr-4">26</strong>
+                      <v-layout column justify-end>
+                        <div class="headline font-weight-light">Saturday</div>
+                        <div class="text-uppercase font-weight-light">October 2019</div>
                       </v-layout>
-                    </v-container>
+                    </v-layout>
+                  </v-container>
                 </v-card>
                 <v-card-text class="py-0">
                   <v-timeline align-top dense>
