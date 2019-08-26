@@ -33,7 +33,7 @@
         >Book your ticket</v-btn>
 &nbsp;
         <v-btn
-          href="https://www.meetup.com/GDG-Addis"
+          href="https://devfest.withgoogle.com/"
           target="_blank"
           outline
           color="cyan"

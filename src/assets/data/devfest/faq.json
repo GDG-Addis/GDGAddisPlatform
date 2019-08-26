@@ -2,49 +2,49 @@
     "left":
 [
     {
-        "quest":"ITEM",
-        "answer":"Bla Bla Bla "
+        "quest":"Dates and location",
+        "answer":"DevFest Addis will take place on the 26th of October.. Location will be updated soon.."
         
     },
     {
-        "quest":"ITEM2",
-        "answer":"Bla Bla Bla "
+        "quest":"Stay Informed",
+        "answer":"To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the DevFest website, RSVP and Book your ticket on Meetup and follow us on Social Media. You can also follow and join the social conversation about GDG DevFest Addis via official hashtags #DevFestAddis19 and #Devfest19. In addition, we'll be posting important information on the website and social media."
     },
     {
-        "quest":"ITEM3",
-        "answer":"Bla Bla Bla "
+        "quest":"Content Formats",
+        "answer":"During the conference day, attendees will be able to attend sessions and hands-on workshops, chat with experts and attendees at coffee breaks and joyful games, and more."
     },
     {
-        "quest":"ITEM4",
-        "answer":"Bla Bla Bla "
+        "quest":"Ticket to attend DevFest Addis",
+        "answer":"Participation to the DevFest is for 3.5$ (100 Birr), and registration is mandatory. Being in the waiting list is not sufficient to participate to the conference. "
     },
     {
-        "quest":"ITEM5",
-        "answer":"Bla Bla Bla "
+        "quest":"Payment Method",
+        "answer":"We are working on integrating local payment method systems. Stay tuned to our website for updates on this matter. "
     }
 ],
 "right":
 [
     {
-        "quest":"ITEM",
-        "answer":"Bla Bla Bla "
+        "quest":"Language",
+        "answer":"All presentations and Workshops at DevFest Addis will be conducted in both English and Amharic."
         
     },
     {
-        "quest":"ITEM2",
-        "answer":"Bla Bla Bla "
+        "quest":"A Must have on the Conference and Workshops",
+        "answer":"You must have a valid ticket to attend the conference, and if you are willing to join a workshop, please bring your laptop and charger. For workshop details, please check the Agenda part"
     },
     {
-        "quest":"ITEM3",
-        "answer":"Bla Bla Bla "
+        "quest":"Raffles",
+        "answer":"We have some swags, badges, stickers, giveaways, gifts ,freebies, and more for all the participants. All the details at the opening ceremony at 8:30 am (2:30 Local Time)."
     },
     {
-        "quest":"ITEM4",
-        "answer":"Bla Bla Bla "
+        "quest":"Event Attire",
+        "answer":"All GDGAddis and DevFestAddis are developer events, so please be comfortable and casual. There is no enforced dress code."
     },
     {
-        "quest":"ITEM5",
-        "answer":"Bla Bla Bla "
+        "quest":"Prohibitions",
+        "answer":"Smoking is only permitted in designated outdoor smoking areas. And also no solicitation or selling of items or services is allowed at DevFest Addis. Any attendee conducting these activities may be removed from the conference."
     }
 ]
 }
