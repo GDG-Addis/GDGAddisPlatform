@@ -6,10 +6,10 @@
         <v-expansion-panel>
           <v-expansion-panel-content v-for="(item,i) in 5" :key="i">
             <template v-slot:header>
-              <div>{{FaqDetails[i].quest}}</div>
+              <div>{{FaqDetails.left[i].quest}}</div>
             </template>
             <v-card>
-              <v-card-text>{{FaqDetails[i].answer}}</v-card-text>
+              <v-card-text>{{FaqDetails.left[i].answer}}</v-card-text>
             </v-card>
           </v-expansion-panel-content>
         </v-expansion-panel>
@@ -18,10 +18,10 @@
         <v-expansion-panel>
           <v-expansion-panel-content v-for="(item,i) in 5" :key="i">
             <template v-slot:header>
-              <div>{{FaqDetails[i].quest}}</div>
+              <div>{{FaqDetails.right[i].quest}}</div>
             </template>
             <v-card>
-              <v-card-text>{{FaqDetails[i].answer}}</v-card-text>
+              <v-card-text>{{FaqDetails.right[i].answer}}</v-card-text>
             </v-card>
           </v-expansion-panel-content>
         </v-expansion-panel>

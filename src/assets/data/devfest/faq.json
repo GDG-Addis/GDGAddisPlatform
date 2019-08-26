@@ -1,5 +1,29 @@
-
-
+{
+    "left":
+[
+    {
+        "quest":"ITEM",
+        "answer":"Bla Bla Bla "
+        
+    },
+    {
+        "quest":"ITEM2",
+        "answer":"Bla Bla Bla "
+    },
+    {
+        "quest":"ITEM3",
+        "answer":"Bla Bla Bla "
+    },
+    {
+        "quest":"ITEM4",
+        "answer":"Bla Bla Bla "
+    },
+    {
+        "quest":"ITEM5",
+        "answer":"Bla Bla Bla "
+    }
+],
+"right":
 [
     {
         "quest":"ITEM",
@@ -23,3 +47,4 @@
         "answer":"Bla Bla Bla "
     }
 ]
+}
