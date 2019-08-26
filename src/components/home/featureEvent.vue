@@ -78,7 +78,7 @@
             slot="activator"
             style="text-transform: capitalize;border-radius:5px;"
           >
-            <v-icon>fab fa-meetup</v-icon>
+            <v-icon>mdi-meetup</v-icon>
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Meetup</span>
         </v-tooltip>
@@ -94,7 +94,7 @@
             slot="activator"
             style="text-transform: capitalize;border-radius:5px;"
           >
-            <v-icon>fab fa-telegram</v-icon>
+            <v-icon>mdi-telegram</v-icon>
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Telegram Channel</span>
         </v-tooltip>
@@ -110,7 +110,7 @@
             slot="activator"
             style="text-transform: capitalize;border-radius:5px;"
           >
-            <v-icon>fab fa-twitter</v-icon>
+            <v-icon>mdi-twitter</v-icon>
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Twitter Page</span>
         </v-tooltip>
