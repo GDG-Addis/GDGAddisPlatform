@@ -5,7 +5,7 @@
         <div>
           <v-toolbar tabs color="secondary" dark>
             <toolbar-title>
-              <span class="title" id="agneda">Agenda</span>
+              <span class="title">Agenda</span>
             </toolbar-title>
             <v-spacer></v-spacer>
             <v-btn flat icon href="https://www.GoogleDocLinkDownLoad">
@@ -35,15 +35,16 @@
                 <v-card dark flat>
                   <v-container fill-height>
                     <v-layout align-center>
-                      <strong class="display-4 font-weight-regular mr-4">26</strong>
+                      <!-- <strong class="display-4 font-weight-regular mr-4">26</strong> -->
+                      <strong class="display-1 font-weight-regular mr-4">Comming Soon!</strong>
                       <v-layout column justify-end>
-                        <div class="headline font-weight-light">Saturday</div>
-                        <div class="text-uppercase font-weight-light">October 2019</div>
+                        <!-- <div class="headline font-weight-light">Saturday</div>
+                        <div class="text-uppercase font-weight-light">October 2019</div> -->
                       </v-layout>
                     </v-layout>
                   </v-container>
                 </v-card>
-                <v-card-text class="py-0">
+                <!-- <v-card-text class="py-0">
                   <v-timeline align-top dense>
                     <v-timeline-item color="pink" small>
                       <v-layout pt-3>
@@ -107,7 +108,7 @@
                       </v-layout>
                     </v-timeline-item>
                   </v-timeline>
-                </v-card-text>
+                </v-card-text> -->
               </v-card>
             </v-tab-item>
           </v-tabs-items>

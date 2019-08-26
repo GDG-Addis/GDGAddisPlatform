@@ -4,7 +4,6 @@
     <v-layout wrap align-start justify-start row fill-height class="my-0">
 
       <!-- Male Avatar -->
-
       <v-flex v-for="i in 4" :key="i" xs6 sm4 md3 lg3 xl3>
         <v-card>
           <v-card-media :src="require('@/assets/img/devfest/speakers/avatar.png')" height="150px"></v-card-media>
@@ -36,7 +35,6 @@
       </v-flex>
       
       <!-- Female Avatar -->
-
       <v-flex v-for="i in 4" :key="i" xs6 sm4 md3 lg3 xl3>
         <v-card>
           <v-card-media :src="require('@/assets/img/devfest/speakers/femaleAvatar.jpg')" height="150px"></v-card-media>
