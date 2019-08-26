@@ -9,12 +9,12 @@
             <v-icon small>mdi-calendar</v-icon>
             Oct 26th, 2019
             <v-divider vertical color="white"></v-divider>
-            <span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span>
+           <a style="text-decoration:none;cursor:pointer;" href="#">  <span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span></a>
           </span>
         </v-layout>
       </v-toolbar-title>
       <v-spacer />
-
+      
       <v-btn
         v-for="(link, i) in links"
         :key="i"
