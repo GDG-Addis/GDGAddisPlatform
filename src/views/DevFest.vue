@@ -111,15 +111,14 @@ export default {
   data() {
     return {
       links: [
-        { text: "GDGAddis", to: "/", icon: "toc" }
-        ,
+        { text: "GDGAddis", to: "/home", icon: "toc" },
         { text: "About DevFest", to: "/devfest", icon: "" },
-        { text: "Agenda", to: "/events", icon: "rounded_corner" },
-        { text: "Speakers", to: "/team", icon: "group" },
+        { text: "Agenda", to: "/agenda", icon: "rounded_corner" },
+        { text: "Speakers", to: "/speakers", icon: "group" },
         { text: "Venue", to: "/about", icon: "toc" },
-        { text: "Sponsors", to: "/", icon: "toc" },
-        { text: "FAQ", to: "/", icon: "toc" },
-        { text: "Top", to: "/", icon: "home" }
+        { text: "Sponsors", to: "/sponsors", icon: "toc" },
+        { text: "FAQ", to: "/faq", icon: "toc" },
+        { text: "Top", to: "/top", icon: "home" }
         
       ]
     };
