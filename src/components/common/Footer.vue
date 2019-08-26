@@ -33,7 +33,8 @@
                   :href="item.Link"
                   class="google-font"
                   target="_blank"
-                  style="color: #3E4551;text-decoration: none;font-size:110%"
+                  style="color: #3E4551;text-decoration: none;font-size:110%;"
+                  
                 >{{item.LinkName}}</a>
                 <br />
               </div>

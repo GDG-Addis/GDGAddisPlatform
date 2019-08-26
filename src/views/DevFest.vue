@@ -63,7 +63,8 @@
     <v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
       <v-layout align-center column justify-center>
         <h1 class="display-2 font-weight-thin mb-3">DevFest Addis 2019</h1>
-        <h4 class="subheading">The most anticipated developers festival!</h4>
+        <h4 class="subheading">The most anticipated developers festival! Join us and bring the spirit of DevFest to Ethiopia. 
+</h4>
         <v-btn  href="https://www.meetup.com/GDG-Addis/events/262076561" target="_blank" color="primary" outline>Reserve Now!</v-btn>
       </v-layout>
     </v-parallax>
