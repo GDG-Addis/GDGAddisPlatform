@@ -8,7 +8,7 @@
     },
     "EventTime":{
         "StartTime":"08:30 AM",
-        "EndTime":"04:30 PM"
+        "EndTime":"06:30 PM"
     },
     "EventVenue":"TBD",
     "EventVenueMapLink":"#",
@@ -19,4 +19,3 @@
     "TELEventPageURL":"https://t.me/GDGAddis",
     "TWITEventPageURL": "https://www.twitter.com/GDGAddis"
 }
-
