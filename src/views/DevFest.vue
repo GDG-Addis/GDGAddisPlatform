@@ -91,6 +91,9 @@
       </v-layout>
     </v-container>
 
+    <!-- Venue -->
+    <!-- TODO -->
+
     <!-- Sponsors -->
 <v-container fluid id="sponsors">
         <v-layout wrap align-center justify-center row fill-height>
