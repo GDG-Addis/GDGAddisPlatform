@@ -115,6 +115,7 @@
 </template>
 
 <script>
+
 import Banner from "@/components/devfest/Banner";
 import Timer from "@/components/devfest/Timer";
 import AboutDevFest from "@/components/devfest/AboutDevFest";
