@@ -14,8 +14,8 @@ export default new Vuex.Store({
       { text: 'About', to: '/about', icon: 'toc'},
       { text: 'WTM Addis', to: '/wtmaddis', icon: 'toc'},
       { text: 'News', to: '/news', icon: 'toc'},
-      { text: 'Addis Forum', to: '', icon: 'toc'},
-      { text: 'Jobs/Interships', to: '', icon: 'toc'},
+      { text: 'Addis Forum', to: '/forum', icon: 'toc'},
+      { text: 'Jobs/Interships', to: 'jobsInternship', icon: 'toc'},
       { text: 'Contact', to: '/contact', icon:'person'}
     ]
   },

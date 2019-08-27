@@ -61,6 +61,16 @@ export default new Router({
       path: '/wtmaddis',
       name: 'WTMAddis',
       component: () => import('./views/WTMAddis.vue')
+    },
+    {
+      path: '/jobsInternship',
+      name: 'Jobs/Internship',
+      component: () => import('./views/JobsIntern.vue')
+    },
+    {
+      path: '/forum',
+      name: 'Addis Forum',
+      component: () => import('./views/AddisForum.vue')
     }
     
   ]
