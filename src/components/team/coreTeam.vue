@@ -26,11 +26,11 @@
                     <p class="mt-1 mb-0 google-font">{{item.designation}}</p>
 
                     <v-btn class="mt-0 mx-0" icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
-                        <v-icon small style="color:#1da1f2">fab fa-twitter</v-icon>
+                        <v-icon small style="color:#1da1f2">mdi-twitter</v-icon>
                     </v-btn>
 
                     <v-btn class="mt-0 mx-0" icon v-if="(item.linkedin).length>0" :href="item.linkedin" target="_blank">
-                        <v-icon small style="color:#0077b5">fab fa-linkedin-in</v-icon>
+                        <v-icon small style="color:#00">mdi-linkedin</v-icon>
                     </v-btn>
 
                     <v-btn class="mt-0 mx-0" icon v-if="(item.github).length>0" :href="item.github" target="_blank">

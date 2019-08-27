@@ -145,7 +145,7 @@ export default {
         
       ],
       options: {
-        duration: 500,
+        duration: 750,
         offset: -10,
         easing: 'easeInOutCubic'
       }
