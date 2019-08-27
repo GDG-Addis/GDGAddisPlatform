@@ -22,7 +22,7 @@
             <v-icon small>mdi-calendar</v-icon>
             Oct 26th, 2019
             <v-divider vertical color="white"></v-divider>
-            <a href="#SomeGeoLocation" style="text-decoration:none;cursor:pointer;"><span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span></a>
+            <a> <span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span> </a>
           </span>
         </v-layout>
       </v-toolbar-title>

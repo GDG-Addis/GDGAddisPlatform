@@ -8,10 +8,10 @@
               <span class="title">Agenda</span>
             </toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn flat icon href="https://www.GoogleDocLinkDownLoad">
+            <v-btn flat icon>
               <v-icon>mdi-download</v-icon>
             </v-btn>
-            <v-btn flat icon href="https://www.Help.com">
+            <v-btn flat icon>
               <v-icon>mdi-help</v-icon>
             </v-btn>
             <v-tabs
