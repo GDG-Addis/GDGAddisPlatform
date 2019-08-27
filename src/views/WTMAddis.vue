@@ -21,7 +21,9 @@
         </v-img>
       </v-flex>
       <v-flex xs12 sm8 md10 lg10 class="pa-2 py-4 px-3">
+        <span class="google-font mt-1 display-2">WTMAddis Website Is Underconstruction  <v-icon style="font-size:120%;color:black;">mdi-bulldozer</v-icon> </span>
         <p class="google-font mb-0" style="font-size:150%">Women Techmakers program</p>
+        <p class="google-font mb-0" style="font-size:120%;font-weight:600">But until then, check the Global Women Tech Makers</p>
         <p
           class="google-font mt-1"
           style="font-size:120%"
