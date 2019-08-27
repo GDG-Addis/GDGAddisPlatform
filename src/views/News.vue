@@ -1,66 +1,77 @@
 <template>
-  <v-content class="pa-0">
-    <v-container fluid class="mt-2 mb-0">
-      <v-layout wrap align-center justify-center row fill-height class="my-0">
-        <v-flex xs12 md10 class="mb-0">
-            <p class="google-font mb-0 mt-0" style="font-size:200%;color:#616161">About {{ChapterDetails.ChapterName}}</p>
-        </v-flex>
-      </v-layout>
-    </v-container>
+  <v-container class="pa-0 my-0" grid-list-lg>
+    <h3>Key Note Speakers</h3>
+    <v-layout wrap align-start justify-start row fill-height class="my-0">
 
-    <v-container fluid class="">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <aboutGDGChapter/>
-        </v-flex>
-      </v-layout>
-    </v-container>
+      <!-- Male Avatar -->
+      <v-flex v-for="i in 4" :key="i" xs6 sm4 md3 lg3 xl3>
+        <v-card>
+          <v-card-media :src="require('@/assets/img/devfest/speakers/avatar.png')" height="150px"></v-card-media>
+          <v-card-title>
+            <div>
+              <span class="title black--text">Avatar</span>
+              <br />
+              <span class="caption">Fullstack Software Developer</span>
+              <br />
+              <span class="caption">GDGAddis</span>
+            </div>
+          </v-card-title>
+          <v-card-actions>
 
-    <v-container fluid class="grey lighten-5 pt-5 pb-1">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <contactInfo/>
-        </v-flex>
-      </v-layout>
-    </v-container>
+            <v-btn flat icon href="https://www.twitter.com" target="_blank">
+              <v-icon>mdi-twitter</v-icon>
+            </v-btn>
 
-    <v-container fluid class="grey lighten-5 py-2 pt-0">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <coc/>
-        </v-flex>
-      </v-layout>
-    </v-container>
+            <v-btn flat icon href="https://www.facebook.com" target="_blank">
+              <v-icon>mdi-facebook</v-icon>
+            </v-btn>
 
-    <v-container fluid class="grey lighten-5 py-2">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <AntiHarassmentPolicy/>
-        </v-flex>
-      </v-layout>
-    </v-container>
+            <v-btn flat icon href="https://www.linkedin.com" target="_blank">
+              <v-icon>mdi-linkedin</v-icon>
+            </v-btn>
 
-  </v-content>
-  
+          </v-card-actions>
+        </v-card>
+      </v-flex>
+      
+      <!-- Female Avatar -->
+      <v-flex v-for="i in 4" :key="i" xs6 sm4 md3 lg3 xl3>
+        <v-card>
+          <v-card-media :src="require('@/assets/img/devfest/speakers/femaleAvatar.jpg')" height="150px"></v-card-media>
+          <v-card-title>
+            <div>
+              <span class="title black--text">Avatar</span>
+              <br />
+              <span class="caption">Fullstack Software Developer</span>
+              <br />
+              <span class="caption">GDGAddis</span>
+            </div>
+          </v-card-title>
+          <v-card-actions>
+
+            <v-btn flat icon href="https://www.twitter.com" target="_blank">
+              <v-icon>mdi-twitter</v-icon>
+            </v-btn>
+
+            <v-btn flat icon href="https://www.facebook.com" target="_blank">
+              <v-icon>mdi-facebook</v-icon>
+            </v-btn>
+
+            <v-btn flat icon href="https://www.linkedin.com" target="_blank">
+              <v-icon>mdi-linkedin</v-icon>
+            </v-btn>
+
+          </v-card-actions>
+        </v-card>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
-import ChapterDetails from '@/assets/data/chapterDetails.json'
-import aboutGDGChapter from '@/components/about/aboutGDGChapter'
-import contactInfo from '@/components/about/contactInfo'
-import coc from '@/components/about/coc'
-import AntiHarassmentPolicy from '@/components/about/AntiHarassmentPolicy'
-  export default {
-    components: {
-      aboutGDGChapter,
-      contactInfo,
-      coc,
-      AntiHarassmentPolicy
-    },
-    data() {
-      return {
-        ChapterDetails: ChapterDetails
-      }
-    },
+export default {
+  data() {
+    return {};
   }
+};
 </script>
