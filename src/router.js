@@ -51,6 +51,17 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue')
+    },
+    {
+      path: '/news',
+      name: 'News',
+      component: () => import('./views/News.vue')
+    },
+    {
+      path: '/wtmaddis',
+      name: 'WTMAddis',
+      component: () => import('./views/WTMAddis.vue')
     }
+    
   ]
 })

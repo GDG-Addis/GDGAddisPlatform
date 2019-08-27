@@ -50,7 +50,7 @@
         </v-layout>
       </v-container>
 
-      <v-container fluid >
+      <v-container fluid>
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <wtmInfo />
