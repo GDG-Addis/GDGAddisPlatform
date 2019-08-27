@@ -12,6 +12,8 @@
           </v-layout>
         </v-img>
       </v-flex>
+
+      
       <v-flex xs12 sm7 md8 lg8 xl8 class>
         <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:300%">
           <b>
