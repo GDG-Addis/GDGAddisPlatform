@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <v-btn
       fab
       medium

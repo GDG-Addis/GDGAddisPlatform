@@ -8,8 +8,8 @@ Version: 1.0.1
 
 ## Overview
 
-GDG Addis Platform is a progressive web app platform that helps GDG Addis's Community easily follw up with events, team and  management, forums, job/internships and more.  
-The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) team and [Here](https://github.com/Vrijraj/aura/) is the origional repository.
+GDG Addis Platform is a progressive web app platform that helps GDG Addis's Community easily follow up with events, team and  management, forums, job/internships and more.  
+The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) team and [Here](https://github.com/Vrijraj/aura/) is the original repository.
 
 ## Features
 | Feature | Description |
@@ -19,7 +19,6 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 | **Mobile first** | Mobo Friendly Web app can be installed as a native app on your phone |
 | **SEO optimized** | index all content and get to the top in search results |
 | **Easy in management** | keep and update all information in the JSON File |
-
 
 ## Getting Started
 1. [Fork repository](https://github.com/GDG-Addis/GDGAddisPlatform/fork) and clone it locally
@@ -64,7 +63,6 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
     ```
 1. Build and deploy
    * `firebase deploy` or `npm run deploy` 
-
 
 
 ### Run your tests
