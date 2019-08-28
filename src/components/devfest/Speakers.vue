@@ -19,15 +19,16 @@
           <v-card-actions>
 
             <v-btn flat icon href="https://www.twitter.com" target="_blank">
-              <v-icon>mdi-twitter</v-icon>
+              <v-icon style="color:#1da1f2">mdi-twitter</v-icon>
             </v-btn>
 
             <v-btn flat icon href="https://www.facebook.com" target="_blank">
-              <v-icon>mdi-facebook</v-icon>
+              <v-icon style="color:#3b5998">mdi-facebook</v-icon>
             </v-btn>
 
             <v-btn flat icon href="https://www.linkedin.com" target="_blank">
-              <v-icon>mdi-linkedin</v-icon>
+              
+              <v-icon style="color:#007bb6">mdi-linkedin</v-icon>
             </v-btn>
 
           </v-card-actions>
@@ -44,21 +45,21 @@
               <br />
               <span class="caption">Fullstack Software Developer</span>
               <br />
-              <span class="caption">GDGAddis</span>
+              <span class="caption">Women TechMakers</span>
             </div>
           </v-card-title>
           <v-card-actions>
 
             <v-btn flat icon href="https://www.twitter.com" target="_blank">
-            <v-icon>mdi-twitter</v-icon>
+            <v-icon style="color:#1da1f2">mdi-twitter</v-icon>
             </v-btn>
 
             <v-btn flat icon href="https://www.facebook.com" target="_blank">
-              <v-icon>mdi-facebook</v-icon>
+              <v-icon style="color:#3b5998">mdi-facebook</v-icon>
             </v-btn>
 
             <v-btn flat icon href="https://www.linkedin.com" target="_blank">
-              <v-icon>mdi-linkedin</v-icon>
+              <v-icon style="color:#007bb6">mdi-linkedin</v-icon>
             </v-btn>
 
           </v-card-actions>

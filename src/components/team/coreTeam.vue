@@ -30,7 +30,7 @@
             :href="item.twitter"
             target="_blank"
           >
-            <v-icon small>mdi-twitter</v-icon>
+            <v-icon small style="color:#1da1f2">mdi-twitter</v-icon>
           </v-btn>
 
           <v-btn
@@ -40,7 +40,7 @@
             :href="item.linkedin"
             target="_blank"
           >
-            <v-icon small>mdi-linkedin</v-icon>
+            <v-icon small style="color:#007bb6">mdi-linkedin</v-icon>
           </v-btn>
 
           <v-btn
@@ -50,7 +50,7 @@
             :href="item.github"
             target="_blank"
           >
-            <v-icon small>fab fa-github</v-icon>
+            <v-icon small>mdi-github-circle</v-icon>
           </v-btn>
           <v-btn
             class="mt-0 mx-0"

@@ -8,16 +8,6 @@
         "name":"WomenTechmakers",
         "link":"https://www.womentechmakers.com/",
         "img":"wtm.png"
-    },
-    {
-        "name":"U.S. Embassy in Ethiopia",
-        "link":"https://et.usembassy.gov",
-        "img":"us_embassy_ethiopia.jpg"
-    },
-    {
-        "name":"USAID",
-        "link":"https://www.usaid.gov",
-        "img":"usaid.jpg"
     }
 
 ]

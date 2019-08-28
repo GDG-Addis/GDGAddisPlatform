@@ -65,6 +65,21 @@
             <v-icon>language</v-icon>
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Website</span>
+        <v-tooltip top slot="activator" v-if="eventDetails.TWITEventPageURL.length>0">
+          <v-btn
+            flat
+            icon
+            color="#616161"
+            :href="eventDetails.TWITEventPageURL"
+            target="_blank"
+            class="ma-0 elevation-0"
+            slot="activator"
+            style="text-transform: capitalize;border-radius:5px;color:#1da1f2"
+          >
+            <v-icon>mdi-twitter</v-icon>
+          </v-btn>
+          <span>See {{eventDetails.FeatureEventName}} Twitter Page</span>
+        </v-tooltip>
         </v-tooltip>
 
         <v-tooltip top slot="activator" v-if="eventDetails.MeetupLink.length>0">
@@ -76,7 +91,7 @@
             target="_blank"
             class="ma-0 elevation-0"
             slot="activator"
-            style="text-transform: capitalize;border-radius:5px;"
+            style="text-transform: capitalize;border-radius:5px;color:#e51937"
           >
             <v-icon>mdi-meetup</v-icon>
           </v-btn>
@@ -92,28 +107,13 @@
             target="_blank"
             class="ma-0 elevation-0"
             slot="activator"
-            style="text-transform: capitalize;border-radius:5px;"
+            style="text-transform: capitalize;border-radius:5px;color:#0088cc;"
           >
             <v-icon>mdi-telegram</v-icon>
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Telegram Channel</span>
         </v-tooltip>
 
-        <v-tooltip top slot="activator" v-if="eventDetails.TWITEventPageURL.length>0">
-          <v-btn
-            flat
-            icon
-            color="#616161"
-            :href="eventDetails.TWITEventPageURL"
-            target="_blank"
-            class="ma-0 elevation-0"
-            slot="activator"
-            style="text-transform: capitalize;border-radius:5px;"
-          >
-            <v-icon>mdi-twitter</v-icon>
-          </v-btn>
-          <span>See {{eventDetails.FeatureEventName}} Twitter Page</span>
-        </v-tooltip>
       </v-flex>
     </v-layout>
   </v-container>
