@@ -7,10 +7,12 @@
       row
       fill-height
       class="mt-2"
-      style="height=100%;width=100%;background-color:#4c4a78;border-radius:10px;"
+      style="height=100%;width=100%;background-color:#4285ef;border-radius:10px;"
     >
+
       <v-flex xs12 sm4 md2 lg2 class="pa-4"></v-flex>
       <v-flex xs12 sm8 md10 lg10 class="pa-2 py-4 px-3">
+      
         <span class="google-font mt-1 display-1" style="font-size:240%;color:white;">
           News Section Is Underconstruction
           <v-icon style="font-size:120%;color:white;">mdi-bulldozer</v-icon>

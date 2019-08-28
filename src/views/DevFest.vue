@@ -81,7 +81,7 @@
 
     <!-- Parallex -->
     <!-- <v-parallax :src="require('@/assets/img/devfest/devfest_banner.png')"></v-parallax> -->
-    <v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+    <v-parallax dark src="@/assets/img/devfest/vbanner.png">
       <v-layout align-center column justify-center>
         <h1 class="display-2 font-weight-thin mb-3" style="color:black;">DevFest Addis 2019</h1>
         <h4
