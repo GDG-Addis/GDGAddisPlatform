@@ -17,12 +17,13 @@
       <v-toolbar-title class="ml-0 pl-1 mr-1">
         <v-layout column>
           <span class="google-font">DevFest Addis 2019</span>
-          
+
           <span class="body-1 grey--text">
-            <v-icon small>mdi-calendar</v-icon>
-            Oct 26th, 2019
+            <v-icon small>mdi-calendar</v-icon>Oct 26th, 2019
             <v-divider vertical color="white"></v-divider>
-            <a> <span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span> </a>
+            <a>
+              <span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span>
+            </a>
           </span>
         </v-layout>
       </v-toolbar-title>
@@ -53,7 +54,7 @@
     </v-container>
 
     <!-- About DevFest -->
-    <v-container fluid class="pa-2" id="aboutDevFest">
+    <v-container fluid class="pt-2" id="aboutDevFest">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class>
           <AboutDevFest />
@@ -74,10 +75,18 @@
     <!-- <v-parallax :src="require('@/assets/img/devfest/devfest_banner.png')"></v-parallax> -->
     <v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
       <v-layout align-center column justify-center>
-        <h1 class="display-2 font-weight-thin mb-3">DevFest Addis 2019</h1>
-        <h4 class="subheading">The most anticipated developers festival! Join us and bring the spirit of DevFest to Ethiopia. 
-</h4>
-        <v-btn  href="https://www.meetup.com/GDG-Addis/events/262076561" target="_blank" color="primary" outline>Reserve Now!</v-btn>
+        <h1 class="display-2 font-weight-thin mb-3" style="color:black;">DevFest Addis 2019</h1>
+        <h4
+          class="subheading"
+          style="color:black;"
+        >The most anticipated developers festival! Join us and bring the spirit of DevFest to Ethiopia.</h4>
+        <v-btn
+          href="https://www.meetup.com/GDG-Addis/events/262076561"
+          class="mt-3"
+          target="_blank"
+          color="primary"
+          outline
+        >Reserve Now!</v-btn>
       </v-layout>
     </v-parallax>
 
@@ -94,13 +103,13 @@
     <!-- TODO -->
 
     <!-- Sponsors -->
-<v-container fluid id="sponsors">
-        <v-layout wrap align-center justify-center row fill-height>
-          <v-flex xs12 md10>
-            <Sponsors/>
-          </v-flex>
-        </v-layout>
-      </v-container>
+    <v-container fluid id="sponsors">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
+          <Sponsors />
+        </v-flex>
+      </v-layout>
+    </v-container>
     <!-- TO DO -->
 
     <!-- FAQ -->
@@ -115,7 +124,6 @@
 </template>
 
 <script>
-
 import Banner from "@/components/devfest/Banner";
 import Timer from "@/components/devfest/Timer";
 import AboutDevFest from "@/components/devfest/AboutDevFest";
@@ -142,13 +150,12 @@ export default {
         { text: "Venue", to: "#venue", icon: "toc" },
         { text: "Sponsors", to: "#sponsors", icon: "toc" },
         { text: "FAQ", to: "#faq", icon: "toc" },
-        { text: "GDG Addis", to: "", icon: "toc" },
-        
+        { text: "GDG Addis", to: "/", icon: "toc" }
       ],
       options: {
-        duration: 780,
+        duration: 750,
         offset: -10,
-        easing: 'easeInOutCubic'
+        easing: "easeInOutCubic"
       }
     };
   }

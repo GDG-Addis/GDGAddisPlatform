@@ -50,7 +50,7 @@
           <v-card-actions>
 
             <v-btn flat icon href="https://www.twitter.com" target="_blank">
-              <v-icon>mdi-twitter</v-icon>
+            <v-icon>mdi-twitter</v-icon>
             </v-btn>
 
             <v-btn flat icon href="https://www.facebook.com" target="_blank">
