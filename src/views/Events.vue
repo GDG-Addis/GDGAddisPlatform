@@ -8,16 +8,15 @@
             style="font-size:200%;color:#0277bd"
           >{{ChapterDetails.ChapterName}}'s Events</p>
 
-          <p class="google-font mt-0 mb-0" style="font-size:130%">
+          <p class="google-font mt-0 mb-0" style="font-size:130%"></p>
           <p class="google-font mb-0" style="font-size:110%">Social Media:</p>
           <p class="google-font mt-0 ml-0" style="font-size:110%">
-
             <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
               <v-tooltip bottom>
-                  <v-btn flat icon :href="item.link" target="_blank" slot="activator">
-                    <v-icon>{{item.icon}}</v-icon>
-                  </v-btn>
-                  <span>{{item.name}}</span>
+                <v-btn flat icon :href="item.link" target="_blank" slot="activator">
+                  <v-icon>{{item.icon}}</v-icon>
+                </v-btn>
+                <span>{{item.name}}</span>
               </v-tooltip>
             </span>
           </p>

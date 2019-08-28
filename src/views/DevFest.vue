@@ -150,7 +150,7 @@ export default {
         { text: "Venue", to: "#venue", icon: "toc" },
         { text: "Sponsors", to: "#sponsors", icon: "toc" },
         { text: "FAQ", to: "#faq", icon: "toc" },
-        { text: "GDG Addis", to: "/", icon: "toc" }
+        { text: "GDGaddis", to: "*", icon: "toc" }
       ],
       options: {
         duration: 750,
