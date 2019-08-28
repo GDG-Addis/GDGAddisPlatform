@@ -110,10 +110,17 @@
     </v-container>
 
     <!-- Venue -->
-     <v-container fluid class style="background-color:#444" id="venue">
+    <v-container fluid class style="background-color:#444" id="venue">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class>
-          <span class="google-font">Venue is being prepared</span>
+          <span class="google-font display-1" style="color:#f0f0f0;">
+            Venue is being prepared
+            <v-icon style="font-size:120%;color:white;">mdi-ruler-square-compass</v-icon>
+          </span>
+          <p
+            class="google-font mt-1 font-weight-thin"
+            style="color:white;"
+          >Till then, take a tour in the website, and DON'T forget to book your ticket for #DevFest19</p>
           <Venue />
         </v-flex>
       </v-layout>
@@ -142,7 +149,6 @@
 </template>
 
 <script>
-
 import Banner from "@/components/devfest/Banner";
 import Timer from "@/components/devfest/Timer";
 import AboutDevFest from "@/components/devfest/AboutDevFest";
