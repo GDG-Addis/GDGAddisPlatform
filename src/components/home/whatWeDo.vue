@@ -9,12 +9,12 @@
         >We provide the community developers with a space to get new ideas, learn from industry experts, engage with peers, use Google Technologies and other developer tools to foster growth and build technology ecosystem.</p>
 
         <p class="google-font" style="font-size:110%">About different Google technologies</p>
-
+        
         <span v-for="(item,i) in whatWeDoData" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <a :href="item.link" target="_blank" flat class="ma-0">
-                <img :src="getImgUrl(item.image)" width="30vh" alt srcset dark v-on="on" />
+                <img :src="getImgUrl(item.image)" width="10%" alt srcset dark v-on="on" />
               </a>
               &nbsp;&nbsp;&nbsp;
             </template>

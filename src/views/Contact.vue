@@ -5,8 +5,8 @@
         <v-flex xs12 md8 class="mb-0">
           <p
             class="google-font mb-0 mt-3"
-            style="font-size:200%;color:#616161"
-          >Contact {{ChapterDetails.ChapterName}}</p>
+            style="font-size:250%;color:#616161;font-weight:600;"
+          >Contact {{ChapterDetails.ChapterName}}</h1>
           <!-- <v-divider></v-divider> -->
           <p
             class="google-font mt-3"
@@ -18,7 +18,7 @@
             <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
               <v-tooltip bottom>
                 <v-btn flat icon :href="item.link" target="_blank" slot="activator">
-                  <v-icon>{{item.icon}}</v-icon>
+                  <v-icon :color="item.color">{{item.icon}}</v-icon>
                 </v-btn>
                 <span>{{item.name}}</span>
               </v-tooltip>

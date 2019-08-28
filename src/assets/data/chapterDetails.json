@@ -11,29 +11,34 @@
     {
       "name": "Facebook",
       "link": "https://www.facebook.com/gdgaddis/",
-      "icon": "mdi-facebook"
+      "icon": "mdi-facebook",
+      "color": "#3b5998"
       
     },
 
     {
       "name": "Twitter",
       "link": "https://twitter.com/GDGAddis",
-      "icon": "mdi-twitter"
+      "icon": "mdi-twitter",
+      "color": "#1da1f2"
     },
     {
       "name": "Meetup",
       "link": "https://www.meetup.com/GDG-Addis",
-      "icon": "mdi-meetup"
+      "icon": "mdi-meetup",
+      "color": "#e51937"
     },
     {
       "name": "Telegram",
       "link": "https://t.me/GDG_Addis",
-      "icon": "mdi-telegram"
+      "icon": "mdi-telegram",
+      "color": "#0088cc "
     },
     {
       "name": "Instagram",
       "link": "https://instagram.com/gdgaddis/",
-      "icon": "mdi-instagram"
+      "icon": "mdi-instagram",
+      "color": "rgb(225,48,108)"
     }
   ],
   "wtmWebsite": "https://www.womentechmakers.com/",

@@ -14,7 +14,7 @@
             <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
               <v-tooltip bottom>
                 <v-btn flat icon :href="item.link" target="_blank" slot="activator">
-                  <v-icon>{{item.icon}}</v-icon>
+                  <v-icon :color="item.color">{{item.icon}}</v-icon>
                 </v-btn>
                 <span>{{item.name}}</span>
               </v-tooltip>
