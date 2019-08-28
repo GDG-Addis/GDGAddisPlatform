@@ -16,7 +16,10 @@
     <v-toolbar app height="55px" fixed dark>
       <v-toolbar-title class="ml-0 pl-1 mr-1">
         <v-layout column>
-          <span class="google-font">DevFest Addis 2019</span>
+          <a href="#" style="text-decoration:none;cursor:pointer;">
+            <span class="google-font light-blue--text" style="color:
+#fff">DevFest Addis 2019</span>
+          </a>
 
           <span class="body-1 grey--text">
             <v-icon small>mdi-calendar</v-icon>Oct 26th, 2019
@@ -62,7 +65,7 @@
     </v-container>
 
     <!-- About DevFest -->
-    <v-container fluid class="pt-2" id="aboutDevFest">
+    <v-container fluid class="pt-2 pb-4 mt-2" id="aboutDevFest">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class>
           <AboutDevFest />

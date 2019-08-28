@@ -3,7 +3,9 @@
     <v-toolbar-side-icon class="hidden-md-and-up" @click="toggleDrawer" />
 
     <v-toolbar-title class="ml-0 pl-1 mr-1">
-      <span class="google-font">{{ChapterDetails.ChapterName}}</span>
+      <a href="#" style="text-decoration:none;cursor:pointer;">
+        <span class="google-font" style="color:#3f3f3f">{{ChapterDetails.ChapterName}}</span>
+      </a>
     </v-toolbar-title>
     <v-spacer />
     <v-btn

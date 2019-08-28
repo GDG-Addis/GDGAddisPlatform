@@ -1,5 +1,18 @@
 <template>
   <div>
+       <v-btn
+      fab
+      medium
+      color="secondary"
+      bottom
+      right
+      absolute
+      fixed
+      @click.native.stop="$vuetify.goTo('*', options)"
+      class="mb-5 hidden-md-and-down"
+    >
+      <v-icon>mdi-chevron-up</v-icon>
+    </v-btn>
     <v-container fluid class="pa-0">
       <v-layout row wrap justify-center fill-height>
         <Slider />
