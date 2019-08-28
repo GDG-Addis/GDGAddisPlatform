@@ -142,11 +142,11 @@ export default {
         { text: "Venue", to: "#venue", icon: "toc" },
         { text: "Sponsors", to: "#sponsors", icon: "toc" },
         { text: "FAQ", to: "#faq", icon: "toc" },
-        { text: "GDG Addis", to: "/", icon: "toc" },
+        { text: "GDG Addis", to: "", icon: "toc" },
         
       ],
       options: {
-        duration: 750,
+        duration: 780,
         offset: -10,
         easing: 'easeInOutCubic'
       }

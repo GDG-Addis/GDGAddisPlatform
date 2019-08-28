@@ -1,5 +1,5 @@
 <template>
-    <v-container class="pa-0 mb-3">
+    <v-container class="pa-0">
         <v-snackbar
             v-model="errorAlert"
             bottom
@@ -16,7 +16,7 @@
         </v-snackbar>
 
         <v-layout wrap align-center justify-center row fill-height class="mt-0 mb-0" >
-           <v-flex xs12 md12 lg12 class="pa-2 mb-0">
+           <v-flex xs12 md12 lg12 class="pa-0 mb-0">
                <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Directory of past events</p>
                <p class="google-font mt-0 mb-0" style="font-size:110%;color:#616161 ">
                    Events are listed in reverse chronological order by date.

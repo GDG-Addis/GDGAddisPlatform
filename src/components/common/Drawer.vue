@@ -67,6 +67,7 @@ export default {
       if (item.to || !item.href) return;
       this.$vuetify.goTo(item.href);
       this.setDrawer(false);
+      
     }
   }
 };
