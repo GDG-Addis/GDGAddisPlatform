@@ -18,15 +18,13 @@
       </v-flex>
 
       <v-flex xs12 md12 class="mt-2">
-        <p class="google-font my-2" style="font-size:110%">General Partners</p>
-
         <v-layout row wrap class="transparent">
           <v-flex xs12 sm7 class="elevation-0 transparent">
             <v-card class="elevation-0 pa-0 ma-0 transparent">
               <v-container grid-list-sm fluid class="pa-0 ma-0">
                 <v-layout row wrap class="ma-0 pa-0">
                   <v-flex
-                    v-for="(itemp,i) in sponsorData"
+                    v-for="(itemp,i) in partnerData"
                     :key="i"
                     xs6
                     md3
@@ -78,15 +76,14 @@
 </template>
 
 <script>
-import Sponsors from "@/components/devfest/Sponsors";
-import datap from "@/assets/data/devfest/sponsors.json";
+import Partners from "@/components/devfest/Partners";
+import datap from "@/assets/data/devfest/partners.json";
 import chapterDetails from "@/assets/data/chapterDetails.json";
 export default {
   data() {
     return {
-
-      Sponsors : Sponsors,  
-      sponsorData: datap,
+      Partners: Partners,
+      partnerData: datap,
       chapterDetails: chapterDetails
     };
   },

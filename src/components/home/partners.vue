@@ -13,7 +13,7 @@
           <a
             style="color:#1565C0;text-decoration: none;"
             :href="`mailto:${chapterDetails.ChapterEmail}`"
-          >{{chapterDetails.ChapterEmail}}</a> to discuss sponsorship opportunities.
+          >{{chapterDetails.ChapterEmail}}</a> to discuss partnership opportunities.
         </p>
       </v-flex>
 

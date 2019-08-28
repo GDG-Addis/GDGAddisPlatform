@@ -17,8 +17,7 @@
       <v-toolbar-title class="ml-0 pl-1 mr-1">
         <v-layout column>
           <a href="#" style="text-decoration:none;cursor:pointer;">
-            <span class="google-font light-blue--text" style="color:
-#fff">DevFest Addis 2019</span>
+            <span class="google-font" style="color:#f8f8f8">DevFest Addis 2019</span>
           </a>
 
           <span class="body-1 grey--text">
@@ -111,13 +110,21 @@
     </v-container>
 
     <!-- Venue -->
+     <v-container fluid class style="background-color:#444" id="venue">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10 class>
+          <span class="google-font">Venue is being prepared</span>
+          <Venue />
+        </v-flex>
+      </v-layout>
+    </v-container>
     <!-- TODO -->
 
-    <!-- Sponsors -->
-    <v-container fluid id="sponsors">
+    <!-- Partners -->
+    <v-container fluid id="partners">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <Sponsors />
+          <Partners />
         </v-flex>
       </v-layout>
     </v-container>
@@ -135,13 +142,16 @@
 </template>
 
 <script>
+
 import Banner from "@/components/devfest/Banner";
 import Timer from "@/components/devfest/Timer";
 import AboutDevFest from "@/components/devfest/AboutDevFest";
 import Agenda from "@/components/devfest/Agenda";
 import Speakers from "@/components/devfest/Speakers";
 import Faq from "@/components/devfest/Faq";
-import Sponsors from "@/components/devfest/Sponsors";
+import Partners from "@/components/devfest/Partners";
+import Venue from "@/components/devfest/Venue";
+
 export default {
   components: {
     Banner,
@@ -150,7 +160,8 @@ export default {
     Agenda,
     Speakers,
     Faq,
-    Sponsors
+    Partners,
+    Venue
   },
   data() {
     return {
@@ -159,7 +170,7 @@ export default {
         { text: "Agenda", to: "#agenda", icon: "rounded_corner" },
         { text: "Speakers", to: "#speakers", icon: "group" },
         { text: "Venue", to: "#venue", icon: "toc" },
-        { text: "Sponsors", to: "#sponsors", icon: "toc" },
+        { text: "Partners", to: "#partners", icon: "toc" },
         { text: "FAQ", to: "#faq", icon: "toc" }
       ],
       options: {
