@@ -151,4 +151,20 @@ export default {
   text-align: center;
   border-radius: 15px;
 }
+
+.day span{
+  background: #4285ef;
+}
+.hour span{
+  background: #e5433b;
+}
+.min span{
+  background: #f7b926;
+}
+.sec span{
+  background: #1b9c58;
+}
+
+
+
 </style>

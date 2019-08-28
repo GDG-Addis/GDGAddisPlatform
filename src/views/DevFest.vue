@@ -8,7 +8,7 @@
       right
       absolute
       fixed
-      @click.native.stop="$vuetify.goTo('#top', options)"
+      @click.native.stop="$vuetify.goTo('*', options)"
       class="mb-5 hidden-md-and-down"
     >
       <v-icon>mdi-chevron-up</v-icon>
@@ -29,6 +29,7 @@
       </v-toolbar-title>
       <v-spacer />
 
+      <!-- ToolBar Buttons -->
       <v-btn
         v-for="(link, i) in links"
         :key="i"
@@ -37,6 +38,13 @@
         flat
         @click="$vuetify.goTo(link.to, options)"
       >{{ link.text }}</v-btn>
+      <!-- ToolBar GDGAddis -->
+      <v-btn
+        class="ml-0 google-font hidden-sm-and-down"
+        style="text-transform: capitalize;"
+        flat
+        to="home"
+      >GDGAddis</v-btn>
     </v-toolbar>
 
     <!-- Banner -->
@@ -149,8 +157,7 @@ export default {
         { text: "Speakers", to: "#speakers", icon: "group" },
         { text: "Venue", to: "#venue", icon: "toc" },
         { text: "Sponsors", to: "#sponsors", icon: "toc" },
-        { text: "FAQ", to: "#faq", icon: "toc" },
-        { text: "GDGaddis", to: "*", icon: "toc" }
+        { text: "FAQ", to: "#faq", icon: "toc" }
       ],
       options: {
         duration: 750,
