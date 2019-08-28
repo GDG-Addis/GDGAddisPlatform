@@ -43,7 +43,7 @@
         class="ml-0 google-font hidden-sm-and-down"
         style="text-transform: capitalize;"
         flat
-        to="home"
+        to="/home"
       >GDGAddis</v-btn>
     </v-toolbar>
 
