@@ -110,22 +110,14 @@
     </v-container>
 
     <!-- Venue -->
-    <v-container fluid class style="background-color:#444" id="venue">
+     <v-container fluid id="venue">
       <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class>
-          <span class="google-font display-1" style="color:#f0f0f0;">
-            Venue is being prepared
-            <v-icon style="font-size:120%;color:white;">mdi-ruler-square-compass</v-icon>
-          </span>
-          <p
-            class="google-font mt-1 font-weight-thin"
-            style="color:white;"
-          >Till then, take a tour in the website, and DON'T forget to book your ticket for #DevFest19</p>
+        <v-flex xs12 md10>
           <Venue />
         </v-flex>
       </v-layout>
     </v-container>
-    <!-- TODO -->
+    
 
     <!-- Partners -->
     <v-container fluid id="partners">
@@ -135,7 +127,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <!-- TO DO -->
+    
 
     <!-- FAQ -->
     <v-container fluid style="background-color:#F0F0F0" id="faq">
@@ -145,6 +137,18 @@
         </v-flex>
       </v-layout>
     </v-container>
+
+    <!-- DevFest18 -->
+    <v-container fluid id="devfest18">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
+          <DevFest18 />
+        </v-flex>
+      </v-layout>
+    </v-container>
+    
+
+
   </div>
 </template>
 
@@ -157,6 +161,7 @@ import Speakers from "@/components/devfest/Speakers";
 import Faq from "@/components/devfest/Faq";
 import Partners from "@/components/devfest/Partners";
 import Venue from "@/components/devfest/Venue";
+import DevFest18 from "@/components/devfest/DevFest18";
 
 export default {
   components: {
@@ -167,7 +172,8 @@ export default {
     Speakers,
     Faq,
     Partners,
-    Venue
+    Venue,
+    DevFest18
   },
   data() {
     return {
@@ -177,7 +183,8 @@ export default {
         { text: "Speakers", to: "#speakers", icon: "group" },
         { text: "Venue", to: "#venue", icon: "toc" },
         { text: "Partners", to: "#partners", icon: "toc" },
-        { text: "FAQ", to: "#faq", icon: "toc" }
+        { text: "FAQ", to: "#faq", icon: "toc" },
+        { text: "DevFest18", to: "#devfest18", icon: "toc" }
       ],
       options: {
         duration: 750,

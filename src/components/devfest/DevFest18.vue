@@ -7,18 +7,18 @@
       row
       fill-height
       class="mt-2"
-      style="height=100%;width=100%;background-color:#e5433b;border-radius:10px;"
+      style="height=100%;width=100%;background-color:#1b9c58;border-radius:10px;"
     >
       <v-flex xs12 sm4 md2 lg2 class="pa-4"></v-flex>
       <v-flex xs12 sm8 md10 lg10 class="pa-2 py-4 px-3">
-        <span class="google-font mt-1 display-1" style="font-size:240%;color:white;">
-          Addis Forum Section Is Underconstruction
-          <v-icon style="font-size:120%;color:white;">mdi-bulldozer</v-icon>
-        </span>
-        <p
-          class="google-font mt-1 font-weight-thin"
-          style="color:white;"
-        >Till then, take a tour in the website, and DON'T forget to book your ticket for #DevFest19</p>
+        <span
+          class="google-font mt-1 display-1"
+          style="font-size:240%;color:white;"
+        >How was our previous DevFest !!</span>
+        <p class="google-font mt-1 font-weight-thin" style="color:white;">
+          We had an amazing
+          <span style="color:black;">#DevFest18Addis</span>
+        </p>
       </v-flex>
     </v-layout>
   </v-container>
