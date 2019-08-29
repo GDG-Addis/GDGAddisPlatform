@@ -139,11 +139,9 @@
     </v-container>
 
     <!-- DevFest18 -->
-    <v-container fluid id="devfest18">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <DevFest18 />
-        </v-flex>
+     <v-container fluid class="pa-0" id="devfest18">
+      <v-layout row wrap justify-start fill-height>
+        <DevFest18 />
       </v-layout>
     </v-container>
     
