@@ -26,13 +26,13 @@ import View from "@/components/common/View";
 import DevBottomNav from "@/components/common/DevFestBottomNav";
 
 export default {
-  name: "App",
+  name: "DevFestApp",
   components: {
-    CoreDrawer,
-    CoreToolbar,
-    CoreFooter,
-    CoreView,
-    BottomNav
+    DevDrawer,
+    Toolbar,
+    Footer,
+    View,
+    DevBottomNav
   },
   data() {
     return {
