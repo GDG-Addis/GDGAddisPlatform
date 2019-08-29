@@ -1,7 +1,7 @@
 [
     {
         "name": "slider1",
-        "url": ".4H5A6918.JPG"
+        "url": "slider1.png"
     },
     {
         "name": "slider3",
@@ -10,9 +10,5 @@
     {
         "name": "slider2",
         "url": "slider2.png"
-    },
-    {
-        "name": "slider4",
-        "url": "slider4.png"
     }
 ]
