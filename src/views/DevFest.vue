@@ -24,7 +24,7 @@
             <v-icon small>mdi-calendar</v-icon>Oct 26th, 2019
             <v-divider vertical color="white"></v-divider>
             <a>
-              <span class="light-blue--text">&nbsp; &nbsp; @ Eliana Hotel</span>
+              <span class="light-blue--text" to="/venue">&nbsp; &nbsp; @ Eliana Hotel</span>
             </a>
           </span>
         </v-layout>
