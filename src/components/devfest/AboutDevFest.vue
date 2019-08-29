@@ -2,7 +2,7 @@
   <v-container class="pa-0 my-0">
     <v-layout wrap align-start justify-start row fill-height class="my-0">
       <v-flex xs12 sm5 md4 lg4 class="pa-2">
-        <v-img
+        <!-- <v-img
           :src="require('@/assets/img/devFestPhoto.jpg')"
           :lazy-src="require('@/assets/img/devFestPhoto.jpg')"
           class
@@ -11,7 +11,9 @@
           <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
             <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
           </v-layout>
-        </v-img>
+        </v-img> -->
+        <youtube :video-id="videoId" :player-vars="playerVars" @playing="playing" width="100%" height="200"></youtube>
+
       </v-flex>
       <v-flex xs12 sm7 md8 lg8 class="pa-2 my-0">
         <p
@@ -46,3 +48,19 @@
 </template>
 
 
+<script>
+export default {
+  data() {
+    return {
+      videoId: 'hTJ_-MxHKMY',
+      playerVars: {
+        autoplay: 0
+      }
+    }
+  },
+  methods: {
+    playing() {
+      
+    }
+  }
+}</script>

@@ -6,7 +6,7 @@
           <p
             class="google-font mb-0 mt-3"
             style="font-size:250%;color:#616161;font-weight:600;"
-          >Contact {{ChapterDetails.ChapterName}}</h1>
+          >Contact {{ChapterDetails.ChapterName}}</p>
           <!-- <v-divider></v-divider> -->
           <p
             class="google-font mt-3"
