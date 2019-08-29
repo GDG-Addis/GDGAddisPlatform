@@ -50,7 +50,7 @@
     </v-toolbar>
 
     <!-- Banner -->
-    <v-container fluid class="pa-0" id="top">
+    <v-container fluid class="pa-0" id="top" >
       <v-layout row wrap justify-start fill-height>
         <Banner />
       </v-layout>

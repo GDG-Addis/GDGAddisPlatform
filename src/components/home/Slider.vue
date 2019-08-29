@@ -1,11 +1,10 @@
 <template>
-  <v-carousel show-arrows-on-hover hide-delimiters interval="3000">
-    <v-flex v-for="(img, i) in images" :key="i">
+  <v-carousel  hide-delimiters interval="3000" tile transition="transition" show-arrows-on-hover fill-height>
+    <v-flex >
     <v-carousel-item
+    v-for="(img, i) in images" :key="i"
       :src="img"
       :lazy-src="img"
-      transition="transition"
-      reverse-transition="reverseTransition"
     ></v-carousel-item>
     </v-flex>
   </v-carousel>

@@ -3,8 +3,8 @@
     <v-layout wrap align-start justify-start row fill-height class="my-0">
       <v-flex xs12 sm5 md4 lg4 class="pa-2">
         <v-img
-          :src="require('@/assets/img/gdg.png')"
-          :lazy-src="require('@/assets/img/gdg.png')"
+          :src="require('@/assets/img/devFestPhoto.jpg')"
+          :lazy-src="require('@/assets/img/devFestPhoto.jpg')"
           class
           width="100%"
         >
@@ -30,8 +30,7 @@
           class="ma-0 google-font elevation-1"
           color="#1a73e8"
           style="text-transform: capitalize;border-radius:5px;color:white"
-        >Book your ticket</v-btn>
-&nbsp;
+        >Book your ticket</v-btn>&nbsp;
         <v-btn
           href="https://devfest.withgoogle.com/"
           target="_blank"

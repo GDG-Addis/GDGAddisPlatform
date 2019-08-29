@@ -8,7 +8,7 @@ export default new Vuex.Store({
     drawer: false,
     items: [ 
       { text: 'Home', to: '/', icon:'home'},
-      { text: 'DevFest 2019', to: '/devfest', icon:''},
+      { text: 'DevFest 2019', to: '/devfest', icon:'toc'},
       { text: 'Events', to: '/events', icon: 'rounded_corner'},
       { text: 'Team', to: '/team', icon:'group'},
       { text: 'About', to: '/about', icon: 'toc'},
@@ -16,10 +16,8 @@ export default new Vuex.Store({
       { text: 'News', to: '/news', icon: 'toc'},
       { text: 'Addis Forum', to: '/forum', icon: 'toc'},
       { text: 'Jobs/Interships', to: 'jobsInternship', icon: 'toc'},
-      { text: 'Contact', to: '/contact', icon:'person'}
-    ],
-    devfest:[
-      {}
+      { text: 'Success Stories', to: '/successstories', icon: 'person' },
+      { text: 'Contact', to: '/contact', icon: 'person' }
     ]
   },
   getters:{

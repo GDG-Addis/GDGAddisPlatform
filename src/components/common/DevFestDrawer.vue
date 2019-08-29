@@ -1,81 +1,73 @@
 <template>
-  <v-app class="white">
-    <v-snackbar v-model="snackWithButtons" :timeout="timeout" bottom left class="snack">
-      {{ snackWithBtnText }}
-      <v-spacer />
-      <v-btn dark flat color="#00f500" @click.native="refreshApp">{{ snackBtnText }}</v-btn>
-      <v-btn icon @click="snackWithButtons = false">
-        <v-icon>close</v-icon>
-      </v-btn>
-    </v-snackbar>
+  <v-navigation-drawer v-model="drawer" app temporary>
+    <v-flex xs12 class="pl-3 pt-5 grey lighten-5 pb-2">
+      <v-img
+        :src="require('@/assets/img/logo.png')"
+        :lazy-src="require('@/assets/img/logo.png')"
+        width="10vh"
+      >
+        <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+          <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+        </v-layout>
+      </v-img>
+      <p class="google-font mt-2" style="font-size:130%">{{ ChapterDetails.ChapterName }}</p>
+    </v-flex>
+    <v-list>
+      <v-list-tile
+        v-for="(link, i) in links"
+        :key="i"
+        :to="link.to"
+        :href="link.href"
+        @click="onClick($event, link)"
+        class="google-font"
+      >
+        <v-list-tile-action>
+          <v-icon>{{link.icon}}</v-icon>
+        </v-list-tile-action>
 
-    <CoreToolbar />
-    <CoreDrawer />
-    <CoreView />
-
-    <CoreFooter />
-    <BottomNav />
-  </v-app>
+        <v-list-tile-content>
+          <v-list-tile-title v-text="link.text" />
+        </v-list-tile-content>
+      </v-list-tile>
+    </v-list>
+  </v-navigation-drawer>
 </template>
 
 <script>
-import DevDrawer from "@/components/common/DevFestDrawer";
-import Toolbar from "@/components/common/Toolbar";
-import Footer from "@/components/common/Footer";
-import View from "@/components/common/View";
-import DevBottomNav from "@/components/common/DevFestBottomNav";
-
+import ChapterDetails from "@/assets/data/chapterDetails.json";
+// Utilities
+import { mapGetters, mapMutations } from "vuex";
 export default {
-  name: "DevFestApp",
-  components: {
-    DevDrawer,
-    Toolbar,
-    Footer,
-    View,
-    DevBottomNav
-  },
+  name: "CoreDrawer",
   data() {
     return {
-      refreshing: false,
-      registration: null,
-      snackBtnText: "",
-      snackWithBtnText: "",
-      snackWithButtons: false,
-      timeout: 6000
-      //
+      ChapterDetails: ChapterDetails
     };
   },
-  created() {
-    // Listen for swUpdated event and display refresh snackbar as required.
-    document.addEventListener("swUpdated", this.showRefreshUI, { once: true });
-    // Refresh all open app tabs when a new service worker is installed.
-    navigator.serviceWorker.addEventListener("controllerchange", () => {
-      if (this.refreshing) return;
-      this.refreshing = true;
-      window.location.reload();
-    });
+  computed: {
+    ...mapGetters(["links"]),
+    drawer: {
+      get() {
+        return this.$store.state.drawer;
+      },
+      set(val) {
+        this.setDrawer(val);
+      }
+    }
   },
   methods: {
-    showRefreshUI(e) {
-      this.registration = e.detail;
-      this.snackBtnText = "Refresh";
-      this.snackWithBtnText = "New version available!";
-      this.snackWithButtons = true;
-    },
-    refreshApp() {
-      this.snackWithButtons = false;
-      if (!this.registration || !this.registration.waiting) {
+    ...mapMutations(["setDrawer"]),
+    onClick(e, item) {
+      e.stopPropagation();
+      if (item.to === "/") {
+        this.$vuetify.goTo(0);
+        this.setDrawer(false);
         return;
       }
-      this.registration.waiting.postMessage("skipWaiting");
+      if (item.to || !item.href) return;
+      this.$vuetify.goTo(item.href);
+      this.setDrawer(false);
     }
   }
 };
 </script>
-
-<style scoped>
-/* Provide better right-edge spacing when using an icon button there. */
-.snack >>> .v-snack__content {
-  padding-right: 16px;
-}
-</style>

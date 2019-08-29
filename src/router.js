@@ -71,6 +71,11 @@ export default new Router({
       path: '/forum',
       name: 'Addis Forum',
       component: () => import('./views/AddisForum.vue')
+    },
+    {
+      path: '/successstories',
+      name: 'Success Stories',
+      component: () => import('./views/SuccessStories.vue')
     }
     
   ]

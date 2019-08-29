@@ -1,6 +1,6 @@
 <template>
   <div>
-       <v-btn
+    <v-btn
       fab
       medium
       color="secondary"
@@ -13,9 +13,12 @@
     >
       <v-icon>mdi-chevron-up</v-icon>
     </v-btn>
+
     <v-container fluid class="pa-0">
-      <v-layout row wrap justify-center fill-height>
-        <Slider />
+      <v-layout row wrap align-center justify-center fill-height full-width>
+        <v-flex xs12>
+          <Slider />
+        </v-flex>
       </v-layout>
     </v-container>
 
