@@ -17,6 +17,9 @@ export default new Vuex.Store({
       { text: 'Addis Forum', to: '/forum', icon: 'toc'},
       { text: 'Jobs/Interships', to: 'jobsInternship', icon: 'toc'},
       { text: 'Contact', to: '/contact', icon:'person'}
+    ],
+    devfest:[
+      {}
     ]
   },
   getters:{
