@@ -1,12 +1,6 @@
 <template>
   <v-layout style="background-color:#424242;">
-    <v-layout
-      wrap
-      align-center
-      justify-center
-      row
-      style="background-color:#444444;"
-    >
+    <v-layout wrap align-center justify-center row style="background-color:#444444;">
       <v-carousel
         width="100%"
         height="100%"
@@ -17,7 +11,11 @@
         transition="transition"
       >
         <v-carousel-item v-for="(slider,k) in sliders" :key="k">
-          <img :src="require(`@/assets/img/devfest/sliders/${slider.url}`)" width="100%" height="100%"  />
+          <img
+            :src="require(`@/assets/img/devfest/sliders/${slider.url}`)"
+            width="100%"
+            height="100%"
+          />
         </v-carousel-item>
       </v-carousel>
     </v-layout>

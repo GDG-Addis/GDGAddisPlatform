@@ -1,63 +1,62 @@
 {
-    "AboutSession":[
-        {
-            "LinkName":"GDG Addis",
-            "Link":"https://gdg-addis-platform.firebaseapp.com"
-        },
-        {
-            "LinkName":"Google Developers Groups",
-            "Link":"https://developers.google.com/programs/community/gdg/"
-        },
-        {
-            "LinkName":"WomenTechamkers",
-            "Link":"https://www.womentechmakers.com/"
-        },
-        {
-            "LinkName":"Become a Member",
-            "Link":"https://meetup.com/GDG-Addis/"
-        },
-        {
-            "LinkName": "Success Stories",
-            "Link": "/successstories"
-        }
-    ],
-    "ChapterResourcesSession":[
-        {
-            "LinkName" : "Become a Partner",
-            "Link" : "mailto:gdgaddis.et@gmail.com"
-        },
-        {
-            "LinkName" : "Call for Speaker",
-            "Link" : "mailto:gdgaddis.et@gmail.com"
-        }
-        
-    ],
-    "DevConsole":[
-        {
-            "LinkName" : "Google API Console",
-            "Link" : "https://console.developers.google.com/"
-        },
-        {
-            "LinkName" : "GCP Console",
-            "Link" : "https://console.cloud.google.com/"
-        },
-        {
-            "LinkName" : "Google Play Console",
-            "Link" : "https://console.cloud.google.com/"
-        },
-        {
-            "LinkName" : "Firebase Console",
-            "Link" : "https://console.firebase.google.com/"
-        }
-    ],
-    "FooterEndSession":[
-        {
-            "LinkName" : "Code of Conduct",
-            "Link" : "https://bit.ly/2ZbxP8N"
-        },
-        {
-            "LinkName" : "Terms & Servies",
-            "Link" : "https://bit.ly/2KTPLvS"
-        }
-    ]
+  "AboutSession": [
+    {
+      "LinkName": "GDG Addis",
+      "Link": "https://gdg-addis-platform.firebaseapp.com"
+    },
+    {
+      "LinkName": "Google Developers Groups",
+      "Link": "https://developers.google.com/programs/community/gdg/"
+    },
+    {
+      "LinkName": "WomenTechamkers",
+      "Link": "https://www.womentechmakers.com/"
+    },
+    {
+      "LinkName": "Become a Member",
+      "Link": "https://meetup.com/GDG-Addis/"
+    },
+    {
+      "LinkName": "Success Stories",
+      "Link": "/successstories"
+    }
+  ],
+  "ChapterResourcesSession": [
+    {
+      "LinkName": "Become a Partner",
+      "Link": "mailto:gdgaddis.et@gmail.com"
+    },
+    {
+      "LinkName": "Call for Speaker",
+      "Link": "mailto:gdgaddis.et@gmail.com"
+    }
+  ],
+  "DevConsole": [
+    {
+      "LinkName": "Google API Console",
+      "Link": "https://console.developers.google.com/"
+    },
+    {
+      "LinkName": "GCP Console",
+      "Link": "https://console.cloud.google.com/"
+    },
+    {
+      "LinkName": "Google Play Console",
+      "Link": "https://console.cloud.google.com/"
+    },
+    {
+      "LinkName": "Firebase Console",
+      "Link": "https://console.firebase.google.com/"
+    }
+  ],
+  "FooterEndSession": [
+    {
+      "LinkName": "Code of Conduct",
+      "Link": "https://bit.ly/2ZbxP8N"
+    },
+    {
+      "LinkName": "Terms & Servies",
+      "Link": "https://bit.ly/2KTPLvS"
+    }
+  ]
 }

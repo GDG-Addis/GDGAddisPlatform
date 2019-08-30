@@ -1,21 +1,21 @@
 {
-    "FeatureEventName":"DevFestAddis19",
-    "EventImage":"DevFest19.png",
-    "EventDate":{
-        "Date":"26",
-        "Month":"10",
-        "Year":"2019"
-    },
-    "EventTime":{
-        "StartTime":"08:30 AM",
-        "EndTime":"06:30 PM"
-    },
-    "EventVenue":"TBD",
-    "EventVenueMapLink":"#",
-    "EventWebsite":"https://gdg-addis-platform.firebaseapp.com",
-    "EventDescription":"DevFest (Developers Festival) is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.. P.S: We will update this page including Venue, Agenda and More Details soon. The Event Entrance fee is 100 ETB. We will provide free Lunch and Refreshments. Many Google and Other Technologies branded swags are also available for free. Expect hidden Prizes and Surprises.",
-    "MeetupLink":"https://www.meetup.com/GDG-Addis/events/262076561/",
-    "RegistrationLink":"https://www.meetup.com/GDG-Addis/events/262076561/",
-    "TELEventPageURL":"https://t.me/GDGAddis",
-    "TWITEventPageURL": "https://www.twitter.com/GDGAddis"
+  "FeatureEventName": "DevFestAddis19",
+  "EventImage": "DevFest19.png",
+  "EventDate": {
+    "Date": "26",
+    "Month": "10",
+    "Year": "2019"
+  },
+  "EventTime": {
+    "StartTime": "08:30 AM",
+    "EndTime": "06:30 PM"
+  },
+  "EventVenue": "TBD",
+  "EventVenueMapLink": "#",
+  "EventWebsite": "https://gdg-addis-platform.firebaseapp.com",
+  "EventDescription": "DevFest (Developers Festival) is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.. P.S: We will update this page including Venue, Agenda and More Details soon. The Event Entrance fee is 100 ETB. We will provide free Lunch and Refreshments. Many Google and Other Technologies branded swags are also available for free. Expect hidden Prizes and Surprises.",
+  "MeetupLink": "https://www.meetup.com/GDG-Addis/events/262076561/",
+  "RegistrationLink": "https://www.meetup.com/GDG-Addis/events/262076561/",
+  "TELEventPageURL": "https://t.me/GDGAddis",
+  "TWITEventPageURL": "https://www.twitter.com/GDGAddis"
 }
