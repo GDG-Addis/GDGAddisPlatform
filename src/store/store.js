@@ -16,7 +16,6 @@ export default new Vuex.Store({
       { text: 'News', to: '/news', icon: 'toc'},
       { text: 'Addis Forum', to: '/forum', icon: 'toc'},
       { text: 'Jobs/Interships', to: 'jobsInternship', icon: 'toc'},
-      { text: 'Success Stories', to: '/successstories', icon: 'person' },
       { text: 'Contact', to: '/contact', icon: 'person' }
     ]
   },

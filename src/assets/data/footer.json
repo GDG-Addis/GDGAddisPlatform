@@ -15,6 +15,10 @@
         {
             "LinkName":"Become a Member",
             "Link":"https://meetup.com/GDG-Addis/"
+        },
+        {
+            "LinkName": "Success Stories",
+            "Link": "/successstories"
         }
     ],
     "ChapterResourcesSession":[
