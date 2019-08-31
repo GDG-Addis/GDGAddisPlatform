@@ -8,8 +8,7 @@
         hide-delimiters
         interval="2500"
         tile
-        transition="transition"
-      >
+        transition="transition">
         <v-carousel-item v-for="(slider,k) in sliders" :key="k">
           <img
             :src="require(`@/assets/img/devfest/sliders/${slider.url}`)"
@@ -19,7 +18,11 @@
         </v-carousel-item>
       </v-carousel>
     </v-layout>
+
+<grid-list-xl></grid-list-xl>
+
   </v-layout>
+
 </template>
 
 <script>
