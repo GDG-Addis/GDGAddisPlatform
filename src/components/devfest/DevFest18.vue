@@ -1,7 +1,7 @@
 <template>
   <v-container class="m5">
     <v-layout row wrap>
-      <v-flex xs12 md6 lg1>
+      <v-flex xs12 md2>
         <v-btn outline block color="primary">1</v-btn>
       </v-flex>
       <v-flex xs4 md2>
@@ -17,7 +17,7 @@
 
     <v-layout row wrap justify-center>
       <v-flex xs4 md3>
-        <v-btn outline block color="success">2</v-btn>
+        <v-btn outline block color="#fff">2</v-btn>
       </v-flex>
       <v-flex xs4 md3>
         <v-btn outline block color="success">2</v-btn>
