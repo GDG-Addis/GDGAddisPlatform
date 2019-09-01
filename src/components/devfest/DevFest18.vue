@@ -1,25 +1,29 @@
 <template>
-  <v-layout style="background-color:#424242;">
-    <v-layout wrap align-center justify-center row style="background-color:#444444;">
-      <v-carousel
-        width="100%"
-        height="100%"
-        show-arrows-on-hover
-        hide-delimiters
-        interval="2500"
-        tile
-        transition="transition"
-      >
-        <v-carousel-item v-for="(slider,k) in sliders" :key="k">
-          <img
-            :src="require(`@/assets/img/devfest/sliders/${slider.url}`)"
-            width="100%"
-            height="100%"
-          />
-        </v-carousel-item>
-      </v-carousel>
+  <v-container class="m5">
+    <v-layout row wrap>
+      <v-flex xs12 md6 lg1>
+        <v-btn outline block color="primary">1</v-btn>
+      </v-flex>
+      <v-flex xs4 md2>
+        <v-btn outline block color="primary">2</v-btn>
+      </v-flex>
+      <v-flex xs4 md2>
+        <v-btn outline block color="primary">2</v-btn>
+      </v-flex>
+      <v-flex xs4 md2>
+        <v-btn outline block color="primary">2</v-btn>
+      </v-flex>
     </v-layout>
-  </v-layout>
+
+    <v-layout row wrap justify-center>
+      <v-flex xs4 md3>
+        <v-btn outline block color="success">2</v-btn>
+      </v-flex>
+      <v-flex xs4 md3>
+        <v-btn outline block color="success">2</v-btn>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
