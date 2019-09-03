@@ -1,32 +1,50 @@
 <template>
   <v-container>
+           
     <v-layout row wrap>
       <v-flex xs4 md2>
-         <v-img :src="require(`@/assets/img/devfest/sliders/devFest18/4H5A6961JPG.jpg`)" height="100%" width="100%"></v-img>
+        <v-img
+          :src="require(`@/assets/img/devfest/sliders/slider1.png`)"
+          height="100%"
+          width="100%"
+        ></v-img>
       </v-flex>
 
-      <v-flex xs4 md2>
-        <v-btn outline block color="primary">11</v-btn>
+      <v-flex xs4 md2 >
+        <v-img
+          :src="require(`@/assets/img/devfest/sliders/slider2.png`)"
+          height="100%"
+          width="100%"
+           
+        ></v-img>
       </v-flex>
     </v-layout>
 
     <v-layout justify-end>
       <v-flex xs4 md2>
-        <v-btn outline block color="primary" class="pa-5">12</v-btn>
+        <v-img
+          :src="require(`@/assets/img/devfest/sliders/slider3.png`)"
+          height="100%"
+          width="100%"
+        ></v-img>
       </v-flex>
     </v-layout>
 
     <v-layout row wrap>
       <v-layout column wrap>
         <v-flex xs4 md2>
-          <v-btn outline block color="primary" class="pa-5">3</v-btn>
+          <v-img
+            :src="require(`@/assets/img/devfest/sliders/slider4.png`)"
+            height="100%"
+            width="100%"
+          ></v-img>
         </v-flex>
       </v-layout>
     </v-layout>
 
     <v-layout row wrap>
       <v-flex xs4 md2>
-        <v-btn outline block color="primary">2</v-btn>
+        
       </v-flex>
     </v-layout>
     <v-layout row wrap>
