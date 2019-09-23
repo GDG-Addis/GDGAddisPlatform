@@ -39,22 +39,7 @@
                 <br />
               </div>
             </v-flex>
-
-            <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;">
-                <b>Resources</b>
-              </p>
-              <div v-for="(item,i) in FooterData.ChapterResourcesSession" :key="i" class="mt-1">
-                <a
-                  :href="item.Link"
-                  class="google-font"
-                  target="_blank"
-                  style="color: #3E4551;text-decoration: none;font-size:110%"
-                >{{item.LinkName}}</a>
-                <br />
-              </div>
-            </v-flex>
-
+            
             <v-flex xs12 md3 sm4 lg3 class="py-2">
               <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;">
                 <strong>Developer Console</strong>
@@ -80,7 +65,7 @@
             <v-toolbar-title
               class="google-font pl-0 ml-0 mr-3"
               style="font-size:200%"
-            >{{ChapterDetails.ChapterName}}</v-toolbar-title>
+            > <a href="#" style="text-decoration:none;cursor:pointer;color:#212121">  {{ChapterDetails.ChapterName}} </a></v-toolbar-title>
 
             <v-btn
               v-for="(item,i) in FooterData.FooterEndSession"

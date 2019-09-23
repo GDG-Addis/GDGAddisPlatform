@@ -2,7 +2,7 @@
   "AboutSession": [
     {
       "LinkName": "GDG Addis",
-      "Link": "https://gdg-addis-platform.firebaseapp.com"
+      "Link": "https://www.gdgaddis.com"
     },
     {
       "LinkName": "Google Developers Groups",
@@ -24,7 +24,7 @@
   "ChapterResourcesSession": [
     {
       "LinkName": "Become a Partner",
-      "Link": "mailto:gdgaddis.et@gmail.com"
+      "Link": "http://tiny.cc/BeGDGPartner"
     },
     {
       "LinkName": "Call for Speaker",

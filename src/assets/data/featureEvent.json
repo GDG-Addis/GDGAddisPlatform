@@ -2,20 +2,22 @@
   "FeatureEventName": "DevFestAddis19",
   "EventImage": "DevFest19.png",
   "EventDate": {
-    "Date": "26",
-    "Month": "10",
+    "Date": "23",
+    "Month": "11",
     "Year": "2019"
   },
   "EventTime": {
     "StartTime": "08:30 AM",
     "EndTime": "06:30 PM"
   },
-  "EventVenue": "TBD",
-  "EventVenueMapLink": "#",
-  "EventWebsite": "https://gdg-addis-platform.firebaseapp.com",
+  "EventVenue": "Eliana Hotel",
+  "EventVenueMapLink": "http://tiny.cc/DevFestVenue",
+  "EventWebsite": "https://www.gdgaddis.dev",
   "EventDescription": "DevFest (Developers Festival) is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.. P.S: We will update this page including Venue, Agenda and More Details soon. The Event Entrance fee is 100 ETB. We will provide free Lunch and Refreshments. Many Google and Other Technologies branded swags are also available for free. Expect hidden Prizes and Surprises.",
-  "MeetupLink": "https://www.meetup.com/GDG-Addis/events/262076561/",
+  "MeetupLink": "https://www.meetup.com/GDG-Addis",
   "RegistrationLink": "https://www.meetup.com/GDG-Addis/events/262076561/",
   "TELEventPageURL": "https://t.me/GDGAddis",
-  "TWITEventPageURL": "https://www.twitter.com/GDGAddis"
+  "TWITEventPageURL": "https://www.twitter.com/GDGAddis",
+  "InstaEventPageURL": "https://www.instagram.com/gdgaddis/",
+  "YouEventPageURL": "https://www.youtube.com/channel/UChfci5MHujiUvSLxsb1B-bQ"
 }

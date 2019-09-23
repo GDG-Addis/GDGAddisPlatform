@@ -26,15 +26,21 @@
           style="font-size:150%;color:rgb(2, 119, 189)"
         >{{eventDetails.FeatureEventName}}</p>
         <span class="google-font mt-1 mb-0 grey--text" style="font-size:105%">
-          <v-icon small>insert_invitation</v-icon>
+         <a  class="grey--text ml-1"
+              href="http://tiny.cc/DevFestNotify"
+              style="text-decoration:underline;cursor:pointer;"
+              target="_blank">  <v-icon small>insert_invitation</v-icon> 
           {{eventDetails.EventDate.Date +'/'+ eventDetails.EventDate.Month +'/'+ eventDetails.EventDate.Year}}
-          &nbsp;
+          </a>&nbsp;
           <v-icon small>watch_later</v-icon>
-          {{eventDetails.EventTime.StartTime +' - '+ eventDetails.EventTime.EndTime}}
+           {{eventDetails.EventTime.StartTime +' - '+ eventDetails.EventTime.EndTime}}
           &nbsp;
           <v-icon small>map</v-icon>
           {{eventDetails.EventVenue | summery(50)}}
-          <a :href="eventDetails.EventVenueMapLink" target="_blank">(Map)</a>
+          <a
+            :href="eventDetails.EventVenueMapLink"
+            target="_blank"
+          >(Event Venue)</a>
         </span>
         <p
           class="google-font mt-2 mb-1"
@@ -49,8 +55,8 @@
           class="ma-0 elevation-0 my-2"
           dark
           style="text-transform: capitalize;border-radius:5px;"
-        >Registration Link</v-btn>
-&nbsp;
+          
+        >Registration Link</v-btn>&nbsp;
         <v-tooltip top slot="activator" v-if="eventDetails.EventWebsite.length>0">
           <v-btn
             flat
@@ -65,21 +71,21 @@
             <v-icon>language</v-icon>
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Website</span>
-        <v-tooltip top slot="activator" v-if="eventDetails.TWITEventPageURL.length>0">
-          <v-btn
-            flat
-            icon
-            color="#616161"
-            :href="eventDetails.TWITEventPageURL"
-            target="_blank"
-            class="ma-0 elevation-0"
-            slot="activator"
-            style="text-transform: capitalize;border-radius:5px;color:#1da1f2"
-          >
-            <v-icon>mdi-twitter</v-icon>
-          </v-btn>
-          <span>See {{eventDetails.FeatureEventName}} Twitter Page</span>
-        </v-tooltip>
+          <v-tooltip top slot="activator" v-if="eventDetails.TWITEventPageURL.length>0">
+            <v-btn
+              flat
+              icon
+              color="#616161"
+              :href="eventDetails.TWITEventPageURL"
+              target="_blank"
+              class="ma-0 elevation-0"
+              slot="activator"
+              style="text-transform: capitalize;border-radius:5px;color:#1da1f2"
+            >
+              <v-icon>mdi-twitter</v-icon>
+            </v-btn>
+            <span>See {{eventDetails.FeatureEventName}} Twitter Page</span>
+          </v-tooltip>
         </v-tooltip>
 
         <v-tooltip top slot="activator" v-if="eventDetails.MeetupLink.length>0">
@@ -114,6 +120,37 @@
           <span>See {{eventDetails.FeatureEventName}} Telegram Channel</span>
         </v-tooltip>
 
+        <v-tooltip top slot="activator" v-if="eventDetails.InstaEventPageURL.length>0">
+          <v-btn
+            flat
+            icon
+            color="rgb(225,48,108)"
+            :href="eventDetails.InstaEventPageURL"
+            target="_blank"
+            class="ma-0 elevation-0"
+            slot="activator"
+            style="text-transform: capitalize;border-radius:5px;color:#e1306c;"
+          >
+            <v-icon>mdi-instagram</v-icon>
+          </v-btn>
+          <span>See {{eventDetails.FeatureEventName}} Instagarm Channel</span>
+        </v-tooltip>
+
+        <v-tooltip top slot="activator" v-if="eventDetails.YouEventPageURL.length>0">
+          <v-btn
+            flat
+            icon
+            color="#c4302b"
+            :href="eventDetails.YouEventPageURL"
+            target="_blank"
+            class="ma-0 elevation-0"
+            slot="activator"
+            style="text-transform: capitalize;border-radius:5px;color:#e5433b;"
+          >
+            <v-icon>mdi-youtube</v-icon>
+          </v-btn>
+          <span>See {{eventDetails.FeatureEventName}} Youtube Channel</span>
+        </v-tooltip>
       </v-flex>
     </v-layout>
   </v-container>
@@ -153,3 +190,4 @@ export default {
   }
 };
 </script>
+

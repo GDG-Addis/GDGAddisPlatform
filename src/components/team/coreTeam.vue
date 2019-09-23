@@ -1,6 +1,10 @@
 <template>
   <v-container class="pa-0">
     <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
+      <v-flex xs12 class="">
+                <p class="google-font" style="font-size:130%;">Core Organizing Team Members</p>
+                <v-divider></v-divider>
+            </v-flex>
       <v-flex
         xs6
         sm3
@@ -12,6 +16,8 @@
         style="text-align:center"
       >
         <!-- style="text-align:center;border: 1px solid #e0e0e0;min-height:250px;border-radius:7px" -->
+
+        
         <div class="text-xs-center ma-1 pa-1 py-5 my-0">
           <v-avatar size="100">
             <v-img :src="getImgUrl(item.profileImage)" :lazy-src="getImgUrl(item.profileImage)">

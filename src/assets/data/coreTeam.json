@@ -1,56 +1,51 @@
+
 [
+  
   {
-    "name": "Nabil Mohammed",
-    "designation": "PR & Marketing Coordinator ",
-    "twitter": "https://twitter.com/alanssinabil19",
-    "linkedin": "https://www.linkedin.com/in/nabiloo19",
-    "github": "https://github.com/nabiloo19",
-    "profileImage": "nabil.jpeg",
+  "name": "Melak Wubshet",
+  "designation": "Lead Organizor of GDGAddis",
+  "twitter": "https://twitter.com",
+  "linkedin": "https://www.linkedin.com",
+  "github": "https://github.com",
+  "profileImage": "Melak Wubshet.jpg",
+  "website": ""
+},
+  {
+    "name": "Daniel Nigusse",
+    "designation": "Co-Organizor of GDGAddis",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Daniel Nigusse.jpg",
+    "website": ""
+  },
+  
+
+  {
+    "name": "Oromia Godanna",
+    "designation": "Co-Organizer of GDGAddis & WTMAddis",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com",
+    "profileImage": "Oromia Godanna.png",
     "website": ""
   },
   {
-    "name": "Name",
-    "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "",
+    "name": "Michel Tesgaye",
+    "designation": "Co-Organizor of GDGAddis",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
     "website": ""
   },
   {
-    "name": "Name",
-    "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "femaleAvatar.jpg",
-    "website": ""
-  },
-  {
-    "name": "Name",
-    "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "",
-    "website": ""
-  },
-  {
-    "name": "Name",
-    "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "femaleAvatar.jpg",
-    "website": ""
-  },
-  {
-    "name": "Name",
-    "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "",
+    "name": "Eleni Mulugeta",
+    "designation": "Lead Organizor of WTMAddis",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Eleni Mulugeta.jpeg",
     "website": ""
   }
 ]

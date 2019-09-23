@@ -27,7 +27,13 @@
         </v-flex>
       </v-layout>
     </v-container>
-
+    <v-container fluid>
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10 class>
+          <assisTeam />
+        </v-flex>
+      </v-layout>
+    </v-container>
     <v-container fluid>
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class>
@@ -42,10 +48,12 @@
 import TeamDetails from "@/assets/data/chapterDetails.json";
 import coreTeam from "@/components/team/coreTeam";
 import organizingTeam from "@/components/team/organizingTeam";
+import assisTeam from "@/components/team/assisTeam";
 export default {
   components: {
     coreTeam,
-    organizingTeam
+    organizingTeam,
+    assisTeam
   },
   data() {
     return {

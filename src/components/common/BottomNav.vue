@@ -8,7 +8,7 @@
 
       <v-btn color="#518FF5" flat value="events" router to="/events">
         <span>Events</span>
-        <v-icon>rounded_corner</v-icon>
+        <v-icon>mdi-calendar</v-icon>
       </v-btn>
 
       <v-btn color="#518FF5" flat value="team" router to="/team">
@@ -18,7 +18,17 @@
 
       <v-btn color="#518FF5" flat value="about" router to="/about">
         <span>About</span>
-        <v-icon>toc</v-icon>
+        <v-icon>mdi-information-outline</v-icon>
+      </v-btn>
+
+      <v-btn color="#518FF5" flat value="wtmaddis" router to="/wtmaddis">
+        <span>WTMAddis</span>
+        <v-icon>mdi-human-female-female</v-icon>
+      </v-btn>
+
+      <v-btn color="#518FF5" flat value="contact" router to="/contact">
+        <span>Contact</span>
+        <v-icon>mdi-account-box-outline</v-icon>
       </v-btn>
 
       <!-- <v-btn
@@ -43,9 +53,17 @@ export default {
       bottomNav: "recent",
       items: [
         { title: "Home", icon: "dashboard", route: "/home" },
-        { title: "Attending", icon: "rounded_corner", route: "/attending" },
-        { title: "Sessions", icon: "toc", route: "/sessions" },
-        { title: "Speakers", icon: "group", route: "/speakers" }
+        {
+          title: "Attending",
+          icon: "mdi-account-check-outline",
+          route: "/attending"
+        },
+        { title: "Sessions", icon: "mdi-code-braces", route: "/sessions" },
+        {
+          title: "Speakers",
+          icon: "mdi-microphone-outline",
+          route: "/speakers"
+        }
       ]
     };
   }
