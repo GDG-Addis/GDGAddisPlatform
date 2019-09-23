@@ -36,13 +36,14 @@
           class="ma-0 google-font"
           style="border-radius:5px;text-transform: capitalize;"
         >Twitter Page</v-btn>
+
         <br />
         <br />
         <router-link
           to="/about"
           class="google-font"
           style="text-decoration:none;color:white"
-        >See More about {{chapterDetails.ChapterName}}</router-link>
+        >See More about <span style="text-decoration:underline;color:white"> {{chapterDetails.ChapterName}}</span></router-link>
       </v-flex>
     </v-layout>
   </v-container>
