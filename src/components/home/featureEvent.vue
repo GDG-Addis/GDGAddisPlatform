@@ -125,7 +125,7 @@
             target="_blank"
             class="ma-0 elevation-0"
             slot="activator"
-            style="text-transform: capitalize;border-radius:5px;color:#0088cc;"
+            style="text-transform: capitalize;border-radius:5px;color:#e1306c;"
           >
             <v-icon>mdi-instagram</v-icon>
           </v-btn>
@@ -141,7 +141,7 @@
             target="_blank"
             class="ma-0 elevation-0"
             slot="activator"
-            style="text-transform: capitalize;border-radius:5px;color:#0088cc;"
+            style="text-transform: capitalize;border-radius:5px;color:#e5433b;"
           >
             <v-icon>mdi-youtube</v-icon>
           </v-btn>
