@@ -26,11 +26,14 @@
           style="font-size:150%;color:rgb(2, 119, 189)"
         >{{eventDetails.FeatureEventName}}</p>
         <span class="google-font mt-1 mb-0 grey--text" style="font-size:105%">
-          <v-icon small>insert_invitation</v-icon>
+         <a  class="grey--text ml-1"
+              href="http://tiny.cc/DevFestNotify"
+              style="text-decoration:underline;cursor:pointer;"
+              target="_blank">  <v-icon small>insert_invitation</v-icon> 
           {{eventDetails.EventDate.Date +'/'+ eventDetails.EventDate.Month +'/'+ eventDetails.EventDate.Year}}
-          &nbsp;
+          </a>&nbsp;
           <v-icon small>watch_later</v-icon>
-          {{eventDetails.EventTime.StartTime +' - '+ eventDetails.EventTime.EndTime}}
+           {{eventDetails.EventTime.StartTime +' - '+ eventDetails.EventTime.EndTime}}
           &nbsp;
           <v-icon small>map</v-icon>
           {{eventDetails.EventVenue | summery(50)}}
@@ -52,6 +55,7 @@
           class="ma-0 elevation-0 my-2"
           dark
           style="text-transform: capitalize;border-radius:5px;"
+          
         >Registration Link</v-btn>&nbsp;
         <v-tooltip top slot="activator" v-if="eventDetails.EventWebsite.length>0">
           <v-btn
