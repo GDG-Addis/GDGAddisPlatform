@@ -21,6 +21,16 @@
         <v-icon>mdi-information-outline</v-icon>
       </v-btn>
 
+      <v-btn color="#518FF5" flat value="wtmaddis" router to="/wtmaddis">
+        <span>WTMAddis</span>
+        <v-icon>mdi-human-female-female</v-icon>
+      </v-btn>
+
+      <v-btn color="#518FF5" flat value="contact" router to="/contact">
+        <span>Contact</span>
+        <v-icon>mdi-account-box-outline</v-icon>
+      </v-btn>
+
       <!-- <v-btn
         color="#518FF5"
         flat
