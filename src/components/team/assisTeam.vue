@@ -14,9 +14,11 @@
                         :key="item.name"
                         avatar
                     >
-                        <v-list-tile-avatar>
+                        <v-list-tile-avatar size="80" class="mr-3">
                             <img :src="getImgUrl(item.profileImage)">
                         </v-list-tile-avatar>
+
+                        
 
                         <v-list-tile-content>
                             <v-list-tile-title class="google-font" v-html="item.name"></v-list-tile-title>

@@ -80,7 +80,7 @@
             <v-toolbar-title
               class="google-font pl-0 ml-0 mr-3"
               style="font-size:200%"
-            >{{ChapterDetails.ChapterName}}</v-toolbar-title>
+            > <a href="#" style="text-decoration:none;cursor:pointer;color:#212121">  {{ChapterDetails.ChapterName}} </a></v-toolbar-title>
 
             <v-btn
               v-for="(item,i) in FooterData.FooterEndSession"

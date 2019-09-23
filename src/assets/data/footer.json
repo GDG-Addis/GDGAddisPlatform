@@ -24,11 +24,11 @@
   "ChapterResourcesSession": [
     {
       "LinkName": "Become a Partner",
-      "Link": ""
+      "Link": "http://tiny.cc/BeGDGPartner"
     },
     {
       "LinkName": "Call for Speaker",
-      "Link": "mailto:gdgaddis.et@gmail.com"
+      "Link": "#"
     }
   ],
   "DevConsole": [
