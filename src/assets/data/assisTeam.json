@@ -1,75 +1,66 @@
 [
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    },
-    {
-      "name": "Name",
-      "designation": "Front End Developer",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "avatar.png",
-      "website": ""
-    }
-  ]
   
+  {
+    "name": "Nabil Mohammed",
+    "designation": "Director of PR & Marketing",
+    "twitter": "https://twitter.com/alanssinabil19",
+    "linkedin": "https://www.linkedin.com/in/nabiloo19",
+    "github": "https://github.com/nabiloo19",
+    "profileImage": "nabil.jpeg",
+    "website": ""
+  },
+  {
+    "name": "Surafel Kindu",
+    "designation": "Design&Video Production Lead",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com/",
+    "profileImage": "Surafel Kindu.jpg",
+    "website": ""
+  },
+  {
+    "name": "Amanuel Teferi",
+    "designation": "Speakers&Agenda Lead",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Amanuel Teferi.jpg",
+    "website": ""
+  },
+  {
+    "name": "Lulit Mulugeta",
+    "designation": "Reciption&Ushering Lead",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Lulit Mulugeta.jpg",
+    "website": ""
+  },
+  {
+    "name": "Bereket Yohannes",
+    "designation": "Logistics&Production Lead",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Bereket.jpg",
+    "website": ""
+  },
+  {
+    "name": "Frehiwot Mekonnen",
+    "designation": "Communication Lead",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Frehiwot Mekonnen.jpg",
+    "website": ""
+  },
+  {
+    "name": "Fireayehu Zekarias",
+    "designation": "DSC Lead",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Lij Fre.jpg",
+    "website": ""
+  }
+]

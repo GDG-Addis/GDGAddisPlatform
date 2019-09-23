@@ -1,48 +1,68 @@
 [
-    {
-      "name": "Gemmechu Mohammed",
-      "designation": "Development",
-      "twitter": "https://twitter.com/",
-      "linkedin": "https://www.linkedin.com/",
-      "github": "https://github.com/",
-      "profileImage": "Gemmechu mohammed.jpg",
-      "website": ""
-    },
-    {
-      "name": "Bethel",
-      "designation": "Development",
-      "twitter": "https://twitter.com/",
-      "linkedin": "https://www.linkedin.com/",
-      "github": "https://github.com/",
-      "profileImage": "Bethel.jpg",
-      "website": ""
-    },
-    {
-      "name": "Habte Assefa",
-      "designation": "Development",
-      "twitter": "https://twitter.com/",
-      "linkedin": "https://www.linkedin.com/",
-      "github": "https://www.github.com/",
-      "profileImage": "Habte Assefa.jpg",
-      "website": ""
-    },
-    {
-      "name": "Dawit Yonas",
-      "designation": "Development",
-      "twitter": "https://twitter.com",
-      "linkedin": "https://www.linkedin.com",
-      "github": "https://github.com",
-      "profileImage": "Dawit Yonas.jpg",
-      "website": ""
-    },
-    {
-      "name": "Michael Abebe",
-      "designation": "Development",
-      "twitter": "https://twitter.com/",
-      "linkedin": "https://twitter.com/",
-      "github": "https://github.com/",
-      "profileImage": "Michael Abebe.jpg",
-      "website": ""
-    }
-  ]
+  {
+    "name": "Simret Araya",
+    "designation": "Speakers&Agenda ",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com/",
+    "profileImage": "Simret Araya.jpg",
+    "website": ""
+  },
+  {
+    "name": "Rediet Demisse",
+    "designation": "Communication",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Rediet Demisse.jpg",
+    "website": ""
+  },
+
+
+  {
+    "name": "Gemmechu Mohammed",
+    "designation": "Speakers&Agenda",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/",
+    "profileImage": "Gemmechu mohammed.jpg",
+    "website": ""
+  },
+  {
+    "name": "Bethel Roger",
+    "designation": "Communication",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/",
+    "profileImage": "Bethel.jpg",
+    "website": ""
+  },
+  {
+    "name": "Dawit Yonas",
+    "designation": "Design&Video Production",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Dawit Yonas.jpg",
+    "website": ""
+  },
+  {
+    "name": "Michael Abebe",
+    "designation": "Reception&Ushering",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://twitter.com/",
+    "github": "https://github.com/",
+    "profileImage": "Michael Abebe.jpg",
+    "website": ""
+  },
+
+{  "name": "Habte Assefa",
+  "designation": "Communication Team",
+  "twitter": "https://twitter.com/",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://www.github.com/",
+  "profileImage": "Habte Assefa.jpg",
+  "website": ""
+}
   
+]
