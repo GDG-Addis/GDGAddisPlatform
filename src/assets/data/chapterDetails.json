@@ -38,6 +38,12 @@
       "link": "https://instagram.com/gdgaddis/",
       "icon": "mdi-instagram",
       "color": "rgb(225,48,108)"
+    },
+    {
+      "name": "Youtube",
+      "link": "https://www.youtube.com/channel/UChfci5MHujiUvSLxsb1B-bQ",
+      "icon": "mdi-youtube",
+      "color": "#c4302b"
     }
   ],
   "wtmWebsite": "https://www.womentechmakers.com/",
