@@ -9,48 +9,138 @@
     "website": ""
   },
   {
-    "name": "Name",
+    "name": "Surafel Kindu",
     "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com/",
+    "profileImage": "Surafel Kindu.jpg",
+    "website": ""
+  },
+  {
+    "name": "Simret Araya",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com/",
+    "profileImage": "Simret Araya.jpg",
+    "website": ""
+  },
+  {
+    "name": "Oromia Godanna",
+    "designation": "Co-Organizer of GDGAddis & WTMAddis",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com",
+    "profileImage": "Oromia Godanna.png",
+    "website": ""
+  },
+  {
+    "name": "Fireayehu Zekarias",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Lij Fre.jpg",
+    "website": ""
+  },
+  {
+    "name": "Daniel Nigusse",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Daniel Nigusse.jpg",
+    "website": ""
+  },
+  {
+    "name": "Rediet Demisse",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Rediet Demisse.jpg",
+    "website": ""
+  },
+  {
+    "name": "Bereket Yohannes",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Bereket.jpg",
+    "website": ""
+  },
+  {
+    "name": "Lulit Mulugeta",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Lulit Mulugeta.jpg",
+    "website": ""
+  },
+  {
+    "name": "Amanuel Teferi",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Amanuel Teferi.jpg",
     "website": ""
   },
   {
     "name": "Name",
     "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "femaleAvatar.jpg",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
     "website": ""
   },
   {
     "name": "Name",
     "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
     "website": ""
   },
   {
     "name": "Name",
     "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "femaleAvatar.jpg",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
     "website": ""
   },
   {
     "name": "Name",
     "designation": "Front End Developer",
-    "twitter": "https://twitter.com/vrijrajsingh",
-    "linkedin": "https://www.linkedin.com/in/vrijraj",
-    "github": "https://github.com/Vrijraj",
-    "profileImage": "",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
+    "website": ""
+  },
+  {
+    "name": "Name",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
+    "website": ""
+  },
+  {
+    "name": "Name",
+    "designation": "Front End Developer",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "avatar.png",
     "website": ""
   }
 ]
