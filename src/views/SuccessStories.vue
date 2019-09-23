@@ -15,10 +15,14 @@
           Success Stories Section Is Underconstruction
           <v-icon style="font-size:120%;color:white;">mdi-bulldozer</v-icon>
         </span>
-        <p
-          class="google-font mt-1 font-weight-thin"
-          style="color:white;"
-        >Till then, take a tour in the website, and DON'T forget to book your ticket for #DevFest19</p>
+      <p class="google-font mt-1 font-weight-thin" style="color:white;">
+            Till then, take a tour in the website, and DON'T forget to
+            <a
+              href="https://www.meetup.com/GDG-Addis/events/262076561/"
+              style="text-decoration:underline;color:white;"
+              target="_blank"
+            >book your ticket for #DevFest19</a>
+          </p>
       </v-flex>
     </v-layout>
   </v-container>
