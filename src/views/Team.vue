@@ -15,7 +15,7 @@
           <p
             class="google-font mt-3 mb-0"
             style="font-size:110%"
-          >Our goal is to organize space to connect the best industry experts with Indian audience to boost development of IT. And Our Core Team is:</p>
+          >Our goal is to organize space to connect the best industry experts with Ethiopian audience to boost development of IT. And Our Core Team is:</p>
         </v-flex>
       </v-layout>
     </v-container>
