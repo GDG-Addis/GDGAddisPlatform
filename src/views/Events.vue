@@ -20,6 +20,10 @@
               </v-tooltip>
             </span>
           </p>
+          <v-alert color="secondary" icon="" :value="true">
+          <span class="title">DevFest Addis 2019 is back!</span>
+          <v-btn color="lime" outline small href="https://devfest.gdgaddis.dev" target="_blank">Go to DevFest Website</v-btn>
+          </v-alert>
         </v-flex>
       </v-layout>
     </v-container>

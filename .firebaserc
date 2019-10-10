@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "gdg-addis-platform"
+  },
+  "targets": {
+    "gdg-addis-platform": {
+      "hosting": {
+        "gdgaddis": [
+          "gdg-addis-platform"
+        ]
+      }
+    }
   }
 }

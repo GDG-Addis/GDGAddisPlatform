@@ -17,12 +17,6 @@ export default new Router({
       component: Home
     },
     {
-      path: '/devfest',
-      name: 'devfest',
-      component: () => import("./views/DevFest.vue"),
-      
-    },
-    {
       path: '*',
       name: 'home',
       component: Home

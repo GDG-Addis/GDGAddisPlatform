@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       images: [
-        require("@/assets/img/devfest/sliders/slider1.png"),
+        require("@/assets/img/homeSliders/slider1.png"),
         require("@/assets/img/homeSliders/slider3.png"),
         require("@/assets/img/homeSliders/slider4.jpg")
       ]

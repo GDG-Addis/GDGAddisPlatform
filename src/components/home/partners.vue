@@ -50,6 +50,7 @@
                               aspect-ratio="3.0"
                               class="white"
                               v-on="on"
+                              contain
                             >
                               <v-layout
                                 slot="placeholder"

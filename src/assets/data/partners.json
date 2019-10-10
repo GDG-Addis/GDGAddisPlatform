@@ -1,11 +1,11 @@
 [
     {
-        "name":"GDG",
+        "name":"Google Developers",
         "link":"https://developers.google.com/groups",
         "img":"gdglogo.png"
     },
     {
-        "name":"WomenTechmakers",
+        "name":"Women Techmakers",
         "link":"https://www.womentechmakers.com/",
         "img":"wtm.png"
     },
@@ -18,6 +18,26 @@
         "name":"USAID",
         "link":"https://www.usaid.gov",
         "img":"usaid.jpg"
+    },
+    {
+        "name":"Gebeya",
+        "link":"https://www.gebeya.com",
+        "img":"gebeya.png"
+    },
+    {
+        "name":"iceaddis",
+        "link":"https://www.iceaddis.com",
+        "img":"iceaddis.png"
+    },
+    {
+        "name":"xHub Addis",
+        "link":"https://www.xhubaddis.com",
+        "img":"xhub.jpg"
+    },
+    {
+        "name":"Addis Ababa University",
+        "link":"https://www.aau.edu.et",
+        "img":"aau.jpg"
     }
     
 

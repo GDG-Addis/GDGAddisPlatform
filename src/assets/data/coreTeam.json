@@ -1,15 +1,22 @@
-
 [
-  
   {
-  "name": "Melak Wubshet",
-  "designation": "Lead Organizor of GDGAddis",
-  "twitter": "https://twitter.com",
-  "linkedin": "https://www.linkedin.com",
-  "github": "https://github.com",
-  "profileImage": "Melak Wubshet.jpg",
-  "website": ""
-},
+    "name": "Melak Wubshet",
+    "designation": "Lead Organizor of GDGAddis",
+    "twitter": "https://twitter.com/MelakeWubshet",
+    "linkedin": "https://www.linkedin.com/in/melake-wubshet-942b47b1/",
+    "github": "https://github.com/Melak12",
+    "profileImage": "Melak Wubshet.jpg",
+    "website": ""
+  },
+  {
+    "name": "Eleni Mulugeta",
+    "designation": "Lead Organizor of WTMAddis",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://github.com",
+    "profileImage": "Eleni Mulugeta.jpeg",
+    "website": ""
+  },
   {
     "name": "Daniel Nigusse",
     "designation": "Co-Organizor of GDGAddis",
@@ -19,8 +26,6 @@
     "profileImage": "Daniel Nigusse.jpg",
     "website": ""
   },
-  
-
   {
     "name": "Oromia Godanna",
     "designation": "Co-Organizer of GDGAddis & WTMAddis",
@@ -36,16 +41,7 @@
     "twitter": "https://twitter.com",
     "linkedin": "https://www.linkedin.com",
     "github": "https://github.com",
-    "profileImage": "avatar.png",
-    "website": ""
-  },
-  {
-    "name": "Eleni Mulugeta",
-    "designation": "Lead Organizor of WTMAddis",
-    "twitter": "https://twitter.com",
-    "linkedin": "https://www.linkedin.com",
-    "github": "https://github.com",
-    "profileImage": "Eleni Mulugeta.jpeg",
+    "profileImage": "mike.jpg",
     "website": ""
   }
 ]

@@ -15,7 +15,7 @@
           <p
             class="google-font mt-3 mb-0"
             style="font-size:110%"
-          >Our goal is to organize space to connect the best industry experts with Indian audience to boost development of IT. And Our Core Team is:</p>
+          >Our objective is to raise the technical proficiency of the tech community throught learning, sharing and tooling.</p>
         </v-flex>
       </v-layout>
     </v-container>

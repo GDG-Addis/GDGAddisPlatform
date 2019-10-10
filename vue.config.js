@@ -1,6 +1,6 @@
 module.exports = {
   pwa: {
-    name: 'GDG Web App',
+    name: 'GDG Addis',
     workboxPluginMode: 'InjectManifest',
     themeColor: '#4A90E2',
     workboxOptions: {
