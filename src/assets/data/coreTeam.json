@@ -1,25 +1,22 @@
-
 [
-  
   {
-  "name": "Melak Wubshet",
-  "designation": "Lead Organizor of GDGAddis",
-  "twitter": "https://twitter.com",
-  "linkedin": "https://www.linkedin.com",
-  "github": "https://github.com",
-  "profileImage": "Melak Wubshet.jpg",
-  "website": ""
-},
-  {
-    "name": "Daniel Nigusse",
-    "designation": "Co-Organizor of GDGAddis",
+    "name": "Melak Wubshet",
+    "designation": "Lead Organizor of GDGAddis",
     "twitter": "https://twitter.com",
     "linkedin": "https://www.linkedin.com",
     "github": "https://github.com",
+    "profileImage": "Melak Wubshet.jpg",
+    "website": ""
+  },
+  {
+    "name": "Daniel Nigusse",
+    "designation": "Co-Organizor of GDGAddis",
+    "twitter": "https://twitter.com/danny_nigusse",
+    "linkedin": "https://www.linkedin.com/in/daniel-nigusse-ethiopia",
+    "github": "https://github.com/Nabute",
     "profileImage": "Daniel Nigusse.jpg",
     "website": ""
   },
-  
 
   {
     "name": "Oromia Godanna",

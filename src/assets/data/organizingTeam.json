@@ -18,7 +18,6 @@
     "website": ""
   },
 
-
   {
     "name": "Gemmechu Mohammed",
     "designation": "Speakers&Agenda",
@@ -56,13 +55,43 @@
     "website": ""
   },
 
-{  "name": "Habte Assefa",
-  "designation": "Communication Team",
-  "twitter": "https://twitter.com/",
-  "linkedin": "https://www.linkedin.com/",
-  "github": "https://www.github.com/",
-  "profileImage": "Habte Assefa.jpg",
-  "website": ""
-}
-  
+  {
+    "name": "Habte Assefa",
+    "designation": "Communication Team",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://www.github.com/",
+    "profileImage": "Habte Assefa.jpg",
+    "website": ""
+  },
+
+  {
+    "name": "Ruth Getachew",
+    "designation": "Communication Team",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://www.github.com/",
+    "profileImage": "Ruth Getachew.jpg",
+    "website": ""
+  },
+
+  {
+    "name": "Bemhreth Gezahegn",
+    "designation": "Communication Team",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://www.github.com/",
+    "profileImage": "bemhrethgezahegn.jpg",
+    "website": ""
+  },
+
+  {
+    "name": "Selam Gebrehiwot",
+    "designation": "Reception and Ushering",
+    "twitter": "https://twitter.com/SelamGht",
+    "linkedin": "https://www.linkedin.com/in/selam-ghiwot-6585ab160",
+    "github": "http://github.com/selight",
+    "profileImage": "selamgebrehiwot.jpg",
+    "website": ""
+  }
 ]
