@@ -90,8 +90,28 @@
     "designation": "Reception and Ushering",
     "twitter": "https://twitter.com/SelamGht",
     "linkedin": "https://www.linkedin.com/in/selam-ghiwot-6585ab160",
-    "github": "http://github.com/selight",
+    "github": "https://github.com/selight",
     "profileImage": "selamgebrehiwot.jpg",
+    "website": ""
+  },
+
+  {
+    "name": "Dera Adugna",
+    "designation": "Speakers and agenda",
+    "twitter": "https://twitter.com/DrDre08132960",
+    "linkedin": "https://www.linkedin.com/in/dera-adugna-570104175",
+    "github": "https://github.com/Dru-Go",
+    "profileImage": "Dera Adugna.jpg",
+    "website": ""
+  },
+
+  {
+    "name": "Zerihun Tesfaye",
+    "designation": "Communication Team",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com",
+    "github": "http://github.com",
+    "profileImage": "Zerihun Tesfaye.jpg",
     "website": ""
   }
 ]
