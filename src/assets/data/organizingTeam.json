@@ -57,7 +57,7 @@
 
   {
     "name": "Habte Assefa",
-    "designation": "Communication Team",
+    "designation": "Communication",
     "twitter": "https://twitter.com/",
     "linkedin": "https://www.linkedin.com/",
     "github": "https://www.github.com/",
@@ -67,7 +67,7 @@
 
   {
     "name": "Ruth Getachew",
-    "designation": "Speakers and agenda",
+    "designation": "Speakers&Agenda",
     "twitter": "https://twitter.com/",
     "linkedin": "https://www.linkedin.com/",
     "github": "https://www.github.com/",
@@ -77,7 +77,7 @@
 
   {
     "name": "Bemhreth Gezahegn",
-    "designation": "Communication Team",
+    "designation": "Communication",
     "twitter": "https://twitter.com/",
     "linkedin": "https://www.linkedin.com/",
     "github": "https://www.github.com/",
@@ -87,7 +87,7 @@
 
   {
     "name": "Selam Gebrehiwot",
-    "designation": "Reception and Ushering",
+    "designation": "Reception&Ushering",
     "twitter": "https://twitter.com/SelamGht",
     "linkedin": "https://www.linkedin.com/in/selam-ghiwot-6585ab160",
     "github": "https://github.com/selight",
@@ -97,21 +97,31 @@
 
   {
     "name": "Dera Adugna",
-    "designation": "Speakers and agenda",
+    "designation": "Speakers&Agenda",
     "twitter": "https://twitter.com/DrDre08132960",
     "linkedin": "https://www.linkedin.com/in/dera-adugna-570104175",
     "github": "https://github.com/Dru-Go",
-    "profileImage": "Dera Adugna.jpg",
+    "profileImage": "DeraAdugna.jpg",
     "website": ""
   },
 
   {
-    "name": "Zerihun Tesfaye",
-    "designation": "Communication Team",
+    "name": "ZerihunTesfaye",
+    "designation": "Communication",
     "twitter": "https://twitter.com/",
     "linkedin": "https://www.linkedin.com",
     "github": "http://github.com",
-    "profileImage": "Zerihun Tesfaye.jpg",
+    "profileImage": "ZerihunTesfaye.jpg",
+    "website": ""
+  },
+
+  {
+    "name": "Henock Negash",
+    "designation": "Speakers&Agenda",
+    "twitter": "https://twitter.com/",
+    "linkedin": "https://www.linkedin.com",
+    "github": "http://github.com",
+    "profileImage": "HenockNegash.jpg",
     "website": ""
   }
 ]
