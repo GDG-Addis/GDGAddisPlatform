@@ -41,9 +41,15 @@
     },
     {
       "name": "Youtube",
-      "link": "https://www.youtube.com/channel/UChfci5MHujiUvSLxsb1B-bQ",
+      "link": "http://tiny.cc/YoutubeChannel",
       "icon": "mdi-youtube",
       "color": "#c4302b"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "http://linkedin.com/in/gdgaddis",
+      "icon": "mdi-linkedin",
+      "color": "#0e76a8"
     }
   ],
   "wtmWebsite": "https://www.womentechmakers.com/",

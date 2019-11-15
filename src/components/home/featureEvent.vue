@@ -151,6 +151,22 @@
           </v-btn>
           <span>See {{eventDetails.FeatureEventName}} Youtube Channel</span>
         </v-tooltip>
+
+        <v-tooltip top slot="activator" v-if="eventDetails.LinkedEventPageURL.length>0">
+          <v-btn
+            flat
+            icon
+            color="#0e76a8"
+            :href="eventDetails.LinkedEventPageURL"
+            target="_blank"
+            class="ma-0 elevation-0"
+            slot="activator"
+            style="text-transform: capitalize;border-radius:5px;color:#0e76a8;"
+          >
+            <v-icon>mdi-linkedin</v-icon>
+          </v-btn>
+          <span>See {{eventDetails.FeatureEventName}} LinkedIn Account</span>
+        </v-tooltip>
       </v-flex>
     </v-layout>
   </v-container>
